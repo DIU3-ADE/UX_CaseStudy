@@ -1,6 +1,6 @@
 ## DIU - Practica1, entregables
 
-
+authors: Florin Emanuel Todor Gliga & Laura Zafra Alarcos
 - Desk research: Análisis Competencia 
 - 2 Personas 
 - 2 User Journey Map  ( 1 por persona)
