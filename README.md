@@ -61,7 +61,7 @@ Nombre del equipo: DI3.ADE
 -----
 
 ## 1. Project Background (Contexto y Justificación)
-El mercado del *fast-food* premium en Granada combina un alto volumen de usuarios universitarios que exigen inmediatez digital con profesionales que buscan experiencias en local. La hipótesis central de esta investigación es que la web de Goiko prioriza el impacto visual (*food porn*) sobre la usabilidad transaccional. Esta sobrecarga estética y la dependencia de plataformas externas para completar pedidos (*delivery*) generan fricción cognitiva y abandono en el embudo de conversión, afectando directamente a las ventas online.
+El mercado del *fast-food* premium en Granada combina un alto volumen de usuarios universitarios que exigen inmediatez digital con profesionales que buscan experiencias en local. La hipótesis central de esta investigación es que la web de Goiko prioriza el impacto visual (*food porn*) sobre la propoa usabilidad de la aplicación. Esta sobrecarga estética y la dependencia de plataformas externas para completar pedidos (*delivery*) generan fricción cognitiva y abandono en el embudo de conversión, afectando directamente a las ventas online.
 
 ## 2. Research Goals & KPIs (Objetivos y Métricas)
 
@@ -98,13 +98,26 @@ Para este análisis competitivo, contrastamos el modelo corporativo de Goiko con
 
 **Tabla Resumen de Competencia:**
 
+### 3. [DESK RESEARCH: COMPETITOR ANALYSIS]
+
+Para este análisis competitivo, contrastamos el modelo corporativo de Goiko con dos competidores locales consolidados en Granada: **Mumama Burger** y **Mostaza Green**. 
+
+**Tabla Resumen de Competencia:**
+
 | Funcionalidad / UX | [Goiko (Caso de Estudio)](https://www.goiko.com/es/) | [Mumama Burger](https://www.mumama.es/) | [Mostaza Green Burger](https://mostazagreen.com/) |
 | :--- | :--- | :--- | :--- |
-| **Arquitectura de la Información** | Sobrecargada. Alta densidad de *pop-ups*, banners promocionales y fotografías de alto peso que ralentizan la carga móvil. | Básica e informativa. Actúa como un escaparate digital estático sin un flujo transaccional propio integrado. | Narrativa visual fluida orientada al concepto *street food*. Estructura limpia orientada a mostrar locales y promociones (Burger del mes). |
-| **Flujo de Conversión (Delivery/Takeaway)** | Híbrido con fricción. Intenta retener al usuario en su sistema propio pero genera confusión con múltiples pasos antes del pago. | Deficiente. El apartado "Delivery" se reduce a un número de teléfono o delegación total de la conversión a aplicaciones de terceros. | Externalizado. Carece de embudo de e-commerce nativo, derivando el 100% del tráfico de pedidos a domicilio a la plataforma Glovo. |
-| **Accesibilidad (Alérgenos y Dietas)** | Aislada. Obliga al usuario a abandonar el menú principal para consultar una tabla/filtro interactivo externo. | Nula a nivel digital. El usuario debe llamar al local o consultar in situ, rompiendo cualquier autonomía en la toma de decisión online. | Carga cognitiva alta. En lugar de integrar la información en la ficha web, obligan a descargar un PDF o escanear un código QR desde la pantalla. |
-| **Sistema de Reservas** | Fricción en grupos grandes. El flujo digital se rompe y obliga a contactar por vías externas (email) si se superan los límites. | Limitado. Ante alta demanda o aforos completos, el sistema bloquea la acción digital y exige al usuario llamar por teléfono. | Informativo. No disponen de un motor de reservas digital claro, priorizando el flujo físico en sus diferentes locales de la ciudad. |
+| **Arquitectura de la Información** | Sobrecargada. Alta densidad de *pop-ups* y opciones. <br><br> <img src="./img/delivery_takeaway_goiko.jpg" width="150px"> | Básica e informativa. Actúa como un escaparate digital estático. | Narrativa visual, pero con interrupciones críticas (pop-ups de fidelización). <br><br> <img src="./img/popup_mostaza.jpg" width="150px"> |
+| **Flujo de Conversión (Delivery)** | Híbrido con fricción. Retiene al usuario en su sistema propio pero genera pasos extra. | Deficiente. Delegación total de la conversión. | Externalizado. Deriva directamente a Glovo. <br><br> <img src="./img/delivery_mostaza.jpg" width="150px"> |
+| **Accesibilidad (Alérgenos)** | Aislada. Obliga al usuario a abandonar el menú principal para consultar otra sección. <br><br> <img src="./img/alergenos_aislados_goiko.png" width="150px"> | Nula a nivel digital. El usuario debe llamar al local o consultar in situ. | Carga cognitiva alta. Te obliga a descargar o abrir un PDF externo. <br><br> <img src="./img/alergenos_mostaza_pdf.jpg" width="150px"> |
+| **Sistema de Reservas** | Fricción en grupos. El flujo digital se rompe a partir de 7 personas, derivando a WhatsApp. <br><br> [🎥 Ver evidencia en vídeo](./img/Goiko_friccion_reserva_grupos.mp4) | Limitado. Ante aforos completos, exige llamar por teléfono. | Informativo. No disponen de un motor de reservas digital claro. |
 
+<br>
+
+**Valoración y Justificación de la Competencia:**
+
+El análisis competitivo, respaldado por evidencias visuales de las plataformas, revela que tanto el exceso como la carencia de desarrollo digital destruyen el embudo de conversión. Goiko, nuestro caso de estudio, presenta una interfaz hiper-saturada donde la accesibilidad nutricional está aislada y las reservas grupales obligan a salir de la web hacia WhatsApp. 
+
+Sin embargo, competidores locales como **Mostaza Green** demuestran que la alternativa no es necesariamente mejor, interrumpiendo la navegación con *pop-ups* invasivos, gestionando los alérgenos mediante PDFs poco accesibles desde móvil y externalizando el *delivery* a plataformas de terceros. En conclusión, mientras los actores locales fallan por omisión y falta de madurez digital, Goiko falla por sobrecarga cognitiva, ofreciendo una oportunidad clara para proponer un rediseño que equilibre estética y conversión sin fricciones.
 <br>
 
 **Valoración y Justificación de la Competencia**
