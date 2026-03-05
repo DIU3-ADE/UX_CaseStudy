@@ -121,10 +121,10 @@ Sin embargo, competidores locales como **Mostaza Green** demuestran que la alter
 
 ### 1.c Personas
 
-![Persona Marcos](P1/Personas/Persona_1.png) 
+![Persona Marcos](./P1/Personas/Persona_1.png) 
 **Marcos (El Impaciente Digital):** Representa la urgencia del sector universitario. Busca pedir comida rápido desde el móvil sin fricción ni distracciones.
 
-![Persona Elena](P1/Personas/Persona_2.png) 
+![Persona Elena](./P1/Personas/Persona_2.png) 
 **Elena (La Planificadora Rigurosa):** Perfil analítico corporativo. Evalúa la reserva online y la claridad de la información nutricional ante intolerancias.
 
 -----
