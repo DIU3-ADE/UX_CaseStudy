@@ -120,16 +120,22 @@ El análisis competitivo, respaldado por evidencias visuales de las plataformas,
 Sin embargo, competidores locales como **Mostaza Green** demuestran que la alternativa no es necesariamente mejor, interrumpiendo la navegación con *pop-ups* invasivos, gestionando los alérgenos mediante PDFs poco accesibles desde móvil y externalizando el *delivery* a plataformas de terceros. En conclusión, mientras los actores locales fallan por omisión y falta de madurez digital, Goiko falla por sobrecarga cognitiva, ofreciendo una oportunidad clara para proponer un rediseño que equilibre estética y conversión sin fricciones.
 
 ### 1.c Personas
-![Método UX](img/Persona.png) 
+
+![Persona Marcos](./img/Persona_Marcos.png) 
+**Marcos (El Impaciente Digital):** Representa la urgencia del sector universitario. Busca pedir comida rápido desde el móvil sin fricción ni distracciones.
+
+![Persona Elena](./img/Persona_Elena.png) 
+**Elena (La Planificadora Rigurosa):** Perfil analítico corporativo. Evalúa la reserva online y la claridad de la información nutricional ante intolerancias.
+
 -----
 
->>> Junto con la captura de pantalla de la ficha de la persona, haz una breve descripción de la misma. Recuerda que son dos. Los recursos de imagen deberán estar dentro de la carpeta P1/ Cuando termines, borra esta línea.  
-
-
 ### 1.d User Journey Map
-![Método UX](img/JourneyMap.png) 
-----
 
+![Journey Map Marcos](./img/Journey_Marcos.png) 
+**Justificación Journey Marcos (Delivery Rápido):** Esta experiencia es el pan de cada día en el sector del *fast-food*. El usuario móvil impulsivo busca gratificación instantánea. Es sumamente habitual que la fricción en los embudos de conversión nativos de las marcas (pop-ups, registros forzosos) provoque el abandono del carrito, empujando al usuario a plataformas de terceros como Glovo o UberEats donde el pago es en un solo clic.
+
+![Journey Map Elena](./img/Journey_Elena.png) 
+**Justificación Journey Elena (Reservas y Alérgenos):** Representa una situación de alto valor económico (mesas grandes) que paradójicamente suele fracasar en el entorno digital. Es un escenario muy habitual en el mercado local: las interfaces no resuelven la accesibilidad nutricional de forma contextual, y los motores de reserva colapsan con grupos, forzando al usuario a volver a canales analógicos (teléfono) o perder directamente al cliente.
 >>> Describe el porqué de las dos experiencias de usuario contadas en el journey map. Por ejemplo, reflexiona si te parece que son habituales. Enlaza con los recursos journey que están en la carpeta P1/. Borra esta linea del template cuando termines.  
 
 
