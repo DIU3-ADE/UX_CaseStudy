@@ -128,15 +128,16 @@ Sin embargo, competidores locales como **Mostaza Green** demuestran que la alter
 **Elena (La Planificadora Rigurosa):** Perfil analítico corporativo. Evalúa la reserva online y la claridad de la información nutricional ante intolerancias.
 
 -----
+-----
+-----
 
 ### 1.d User Journey Map
 
 ![Journey Map Marcos](./P1/Personas/Journey_p1.png) 
-**Justificación Journey Marcos (Delivery Rápido):** Esta experiencia es el pan de cada día en el sector del *fast-food*. El usuario móvil impulsivo busca gratificación instantánea. Es sumamente habitual que la fricción en los embudos de conversión nativos de las marcas (pop-ups, registros forzosos) provoque el abandono del carrito, empujando al usuario a plataformas de terceros como Glovo o UberEats donde el pago es en un solo clic.
+**Justificación Journey Marcos (Delivery Rápido):** Hemos planteado el caso de Marcos porque refleja lo que nos pasa a todos un viernes por la noche: queremos la comida ya y tenemos cero paciencia. Lo más habitual cuando intentas pedir desde el móvil en estas webs es que te frían a *pop-ups* o te obliguen a crearte una cuenta. Al final, la fricción es tan alta que el usuario se cansa, cierra la pestaña y se va a pedir lo mismo por Glovo simplemente porque ahí ya tiene la tarjeta guardada y paga en un clic.
 
 ![Journey Map Elena](./P1/Personas/Journey_p2.png) 
-**Justificación Journey Elena (Reservas y Alérgenos):** Representa una situación de alto valor económico (mesas grandes) que paradójicamente suele fracasar en el entorno digital. Es un escenario muy habitual en el mercado local: las interfaces no resuelven la accesibilidad nutricional de forma contextual, y los motores de reserva colapsan con grupos, forzando al usuario a volver a canales analógicos (teléfono) o perder directamente al cliente.
->>> Describe el porqué de las dos experiencias de usuario contadas en el journey map. Por ejemplo, reflexiona si te parece que son habituales. Enlaza con los recursos journey que están en la carpeta P1/. Borra esta linea del template cuando termines.  
+**Justificación Journey Elena (Reservas y Alérgenos):** El caso de Elena representa el típico dolor de cabeza al organizar una cena de empresa o de amigos. Es frustrante, y muy común, intentar reservar para un grupo grande y que la web colapse o te obligue a llamar por teléfono, rompiendo toda la utilidad de hacerlo online. Además, cuando tienes a alguien celíaco en el grupo, esconder los alérgenos en otra página en lugar de ponerlos claros al lado del plato genera mucha desconfianza. Es un fallo crítico que te hace descartar el restaurante.
 
 
 ### 1.e Usability Review
