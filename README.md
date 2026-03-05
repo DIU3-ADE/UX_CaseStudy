@@ -18,7 +18,7 @@ Actualizado: 14/01/2026
 ![Método UX](img/caseStudy.png) 
 -----
 
-Grupo: DIU3_ADE.  Curso: 2025/26 
+Grupo: DIU3_ADE.  Curso: 2025/26 Grado: Ingeniería Informática + ADE
 
 Nombre del Proyecto: 
 
@@ -33,6 +33,7 @@ Logotipo:
 >>> Si diseña un logotipo para su producto en la práctica 3 pongalo aqui, a un tamaño adecuado. Si diseña un slogan añadalo aquí (rellenar más adelante)
 
 Miembros y nombre del equipo:
+Nombre del equipo: DI3.ADE
  * :bust_in_silhouette:  Florín Emanuel Todor Gliga     :octocat:     : https://github.com/FlorinTodor
  * :bust_in_silhouette:  Laura Zafra Alarcos     :octocat:            : https://github.com/LauraZafra
 
@@ -93,8 +94,24 @@ El mercado del *fast-food* premium en Granada combina un alto volumen de usuario
 ### 1.b Competitive Analysis
 ![Método UX](img/Competitive.png) 
 -----
+Para este análisis competitivo, contrastamos el modelo corporativo de Goiko con dos competidores locales consolidados en Granada: **Mumama Burger** y **Mostaza Green**. Esta comparativa expone cómo la usabilidad se resiente tanto por la sobresaturación de elementos en grandes cadenas como por la falta de madurez digital en negocios locales.
 
->>> Describe brevemente características de las aplicaciones que tiene asignadas tu grupo. Decidete por una y explica por qué se ha seleccionado. Borra esta línea cuando lo tengas. 
+**Tabla Resumen de Competencia:**
+
+| Funcionalidad / UX | [Goiko (Caso de Estudio)](https://www.goiko.com/es/) | [Mumama Burger](https://www.mumama.es/) | [Mostaza Green Burger](https://mostazagreen.com/) |
+| :--- | :--- | :--- | :--- |
+| **Arquitectura de la Información** | Sobrecargada. Alta densidad de *pop-ups*, banners promocionales y fotografías de alto peso que ralentizan la carga móvil. | Básica e informativa. Actúa como un escaparate digital estático sin un flujo transaccional propio integrado. | Narrativa visual fluida orientada al concepto *street food*. Estructura limpia orientada a mostrar locales y promociones (Burger del mes). |
+| **Flujo de Conversión (Delivery/Takeaway)** | Híbrido con fricción. Intenta retener al usuario en su sistema propio pero genera confusión con múltiples pasos antes del pago. | Deficiente. El apartado "Delivery" se reduce a un número de teléfono o delegación total de la conversión a aplicaciones de terceros. | Externalizado. Carece de embudo de e-commerce nativo, derivando el 100% del tráfico de pedidos a domicilio a la plataforma Glovo. |
+| **Accesibilidad (Alérgenos y Dietas)** | Aislada. Obliga al usuario a abandonar el menú principal para consultar una tabla/filtro interactivo externo. | Nula a nivel digital. El usuario debe llamar al local o consultar in situ, rompiendo cualquier autonomía en la toma de decisión online. | Carga cognitiva alta. En lugar de integrar la información en la ficha web, obligan a descargar un PDF o escanear un código QR desde la pantalla. |
+| **Sistema de Reservas** | Fricción en grupos grandes. El flujo digital se rompe y obliga a contactar por vías externas (email) si se superan los límites. | Limitado. Ante alta demanda o aforos completos, el sistema bloquea la acción digital y exige al usuario llamar por teléfono. | Informativo. No disponen de un motor de reservas digital claro, priorizando el flujo físico en sus diferentes locales de la ciudad. |
+
+<br>
+
+**Valoración y Justificación de la Competencia**
+
+El análisis competitivo, contextualizado en el ecosistema hostelero de Granada, revela que tanto el exceso como la carencia de desarrollo digital destruyen el embudo de conversión. Goiko, nuestro caso de estudio, presenta una interfaz hiper-saturada donde la agresividad del marketing y la arquitectura compleja penalizan la operabilidad y generan fatiga en el usuario.
+
+Sin embargo, los competidores locales demuestran que la alternativa no es necesariamente mejor. **Mumama Burger** y **Mostaza Green** renuncian casi por completo al diseño de su experiencia transaccional. Al externalizar su *delivery* a plataformas como Glovo o Uber Eats, y al gestionar reservas mediante llamadas telefónicas, pierden el control sobre el *Customer Journey*. Un usuario no puede completar una tarea de principio a fin de forma autónoma en sus webs. Especialmente grave es el manejo de la accesibilidad en Mostaza Green, que obliga a escanear un QR externo para ver alérgenos mientras se navega por su propia página. En conclusión, mientras los actores locales fallan por omisión y falta de madurez digital, Goiko falla por sobrecarga cognitiva, ofreciendo una oportunidad clara para proponer un rediseño que equilibre estética y una conversión sin fricciones. 
 
 
 ### 1.c Personas
