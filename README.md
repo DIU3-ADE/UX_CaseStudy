@@ -52,14 +52,42 @@ Miembros y nombre del equipo:
 
 ## Paso 1. UX User & Desk Research & Analisis 
 
->>> Cualquier título puede ser adaptado. Recuerda borrar estos comentarios del template en tu documento
+
 
 
 ### 1.a User Reseach Plan
 ![Método UX](img/Competitive.png) 
 -----
 
->>> Describe el plan en tu User Research (cómo se plantea la selección de usuarios). Borra esta línea cuando lo tengas.  
+## 1. Project Background (Contexto y Justificación)
+El mercado del *fast-food* premium en Granada combina un alto volumen de usuarios universitarios que exigen inmediatez digital con profesionales que buscan experiencias en local. La hipótesis central de esta investigación es que la web de Goiko prioriza el impacto visual (*food porn*) sobre la usabilidad transaccional. Esta sobrecarga estética y la dependencia de plataformas externas para completar pedidos (*delivery*) generan fricción cognitiva y abandono en el embudo de conversión, afectando directamente a las ventas online.
+
+## 2. Research Goals & KPIs (Objetivos y Métricas)
+
+| Objetivos de Investigación | KPIs (Indicadores Clave de Rendimiento) |
+| :--- | :--- |
+| **Evaluar la fricción en el embudo de conversión del pedido a domicilio (Delivery).** | - Tasa de abandono en la pantalla de selección de extras.<br>- Número de clics necesarios para llegar al *checkout*. |
+| **Analizar la usabilidad del sistema de reservas de mesas.** | - Tiempo promedio para completar una reserva de mesa para un grupo.<br>- Tasa de éxito en el primer intento sin errores del sistema. |
+| **Medir la accesibilidad de la información nutricional crítica.** | - Tiempo requerido para localizar la tabla de alérgenos.<br>- Número de pasos para identificar opciones sin gluten. |
+
+## 3. Research Methods (Metodología)
+* **Cualitativa (Contextual Inquiry):** Observación directa de usuarios intentando realizar un pedido real desde su *smartphone* en un entorno ruidoso o con distracciones, para identificar la fatiga visual y los bloqueos ante ventanas modales (promociones).
+* **Cuantitativa (Usability Test / Heuristic Review):** Aplicación de una lista de verificación de usabilidad (basada en heurísticas de Nielsen) para puntuar la severidad de los errores de interfaz en la navegación móvil y de escritorio.
+
+## 4. Research Questions (Preguntas de Investigación)
+1. ¿Qué elementos visuales o modales interrumpen al usuario antes de poder ver el precio final de su pedido?
+2. ¿Con qué facilidad puede un usuario con restricciones alimentarias asegurar que su pedido es seguro para su consumo?
+3. ¿La derivación de tráfico hacia plataformas de terceros (como Glovo o UberEats) rompe la confianza o el flujo de la experiencia del usuario?
+
+## 5. Experience in this field (Perspectivas)
+* **My personal experience:** El diseño orientado al *marketing* agresivo a menudo destruye la operabilidad. La retención de usuarios en restauración depende más de pedir en 3 clics que de ver imágenes en ultra alta resolución que ralentizan la carga en dispositivos móviles.
+* **As a designer:** Observo que la arquitectura de la información es inconsistente; elementos críticos como los alérgenos están enterrados en menús secundarios en lugar de integrados en la ficha contextual del producto.
+* **As an observer:** Los usuarios frecuentemente se frustran al intentar cerrar *banners* de suscripción a *newsletters* que tapan los botones de llamada a la acción (CTA) principales en pantallas pequeñas.
+* **People say (User voice):** *"Solo quería pedir una Kevin Bacon rápida, pero la web me obligó a saltar a otra aplicación y perdí el hilo de lo que estaba haciendo"*.
+
+## 6. Participant Recruitment (Reclutamiento)
+* **Perfil 1: El Impaciente Digital.** Estudiantes universitarios (18-26 años) que buscan realizar un pedido a domicilio desde el móvil con la máxima velocidad y el mínimo esfuerzo cognitivo.
+* **Perfil 2: El Planificador Restringido.** Profesionales (30-45 años) encargados de reservar para un grupo presencial, incluyendo la necesidad de verificar información de alérgenos de forma estricta.
 
 
 ### 1.b Competitive Analysis
