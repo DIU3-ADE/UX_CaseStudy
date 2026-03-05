@@ -106,10 +106,10 @@ Para este análisis competitivo, contrastamos el modelo corporativo de Goiko con
 
 | Funcionalidad / UX | [Goiko (Caso de Estudio)](https://www.goiko.com/es/) | [Mumama Burger](https://www.mumama.es/) | [Mostaza Green Burger](https://mostazagreen.com/) |
 | :--- | :--- | :--- | :--- |
-| **Arquitectura de la Información** | Sobrecargada. Alta densidad de *pop-ups* y opciones. <br><br> <img src=".P1/img/delivery_takeaway_goiko.jpg" width="150px"> | Básica e informativa. Actúa como un escaparate digital estático. | Narrativa visual, pero con interrupciones críticas (pop-ups de fidelización). <br><br> <img src="./img/popup_mostaza.jpg" width="150px"> |
-| **Flujo de Conversión (Delivery)** | Híbrido con fricción. Retiene al usuario en su sistema propio pero genera pasos extra. | Deficiente. Delegación total de la conversión. | Externalizado. Deriva directamente a Glovo. <br><br> <img src="./img/delivery_mostaza.jpg" width="150px"> |
-| **Accesibilidad (Alérgenos)** | Aislada. Obliga al usuario a abandonar el menú principal para consultar otra sección. <br><br> <img src="./img/alergenos_aislados_goiko.png" width="150px"> | Nula a nivel digital. El usuario debe llamar al local o consultar in situ. | Carga cognitiva alta. Te obliga a descargar o abrir un PDF externo. <br><br> <img src="./img/alergenos_mostaza_pdf.jpg" width="150px"> |
-| **Sistema de Reservas** | Fricción en grupos. El flujo digital se rompe a partir de 7 personas, derivando a WhatsApp. <br><br> [🎥 Ver evidencia en vídeo](./img/Goiko_friccion_reserva_grupos.mp4) | Limitado. Ante aforos completos, exige llamar por teléfono. | Informativo. No disponen de un motor de reservas digital claro. |
+| **Arquitectura de la Información** | Sobrecargada. Alta densidad de *pop-ups* y opciones. <br><br> <img src="./P1/img/delivery_takeaway_goiko.png" width="150px"> | Básica e informativa. Actúa como un escaparate digital estático. | Narrativa visual, pero con interrupciones críticas (pop-ups de fidelización). <br><br> <img src="./P1/img/popup_mostaza.png" width="150px"> |
+| **Flujo de Conversión (Delivery)** | Híbrido con fricción. Retiene al usuario en su sistema propio pero genera pasos extra. | Deficiente. Delegación total de la conversión. | Externalizado. Deriva directamente a Glovo. <br><br> <img src="./P1/img/delivery_mostaza.png" width="150px"> |
+| **Accesibilidad (Alérgenos)** | Aislada. Obliga al usuario a abandonar el menú principal para consultar otra sección. <br><br> <img src="./P1/img/alergenos_aislados_goiko.png" width="150px"> | Nula a nivel digital. El usuario debe llamar al local o consultar in situ. | Carga cognitiva alta. Te obliga a descargar o abrir un PDF externo. <br><br> <img src="./P1/img/alergenos_mostaza_pdf.png" width="150px"> |
+| **Sistema de Reservas** | Fricción en grupos. El flujo digital se rompe a partir de 7 personas, derivando a WhatsApp. <br><br> [🎥 Ver evidencia en vídeo](./P1/img/Goiko_friccion_reserva_grupos.mp4) | Limitado. Ante aforos completos, exige llamar por teléfono. | Informativo. No disponen de un motor de reservas digital claro. |
 
 <br>
 
@@ -118,14 +118,6 @@ Para este análisis competitivo, contrastamos el modelo corporativo de Goiko con
 El análisis competitivo, respaldado por evidencias visuales de las plataformas, revela que tanto el exceso como la carencia de desarrollo digital destruyen el embudo de conversión. Goiko, nuestro caso de estudio, presenta una interfaz hiper-saturada donde la accesibilidad nutricional está aislada y las reservas grupales obligan a salir de la web hacia WhatsApp. 
 
 Sin embargo, competidores locales como **Mostaza Green** demuestran que la alternativa no es necesariamente mejor, interrumpiendo la navegación con *pop-ups* invasivos, gestionando los alérgenos mediante PDFs poco accesibles desde móvil y externalizando el *delivery* a plataformas de terceros. En conclusión, mientras los actores locales fallan por omisión y falta de madurez digital, Goiko falla por sobrecarga cognitiva, ofreciendo una oportunidad clara para proponer un rediseño que equilibre estética y conversión sin fricciones.
-<br>
-
-**Valoración y Justificación de la Competencia**
-
-El análisis competitivo, contextualizado en el ecosistema hostelero de Granada, revela que tanto el exceso como la carencia de desarrollo digital destruyen el embudo de conversión. Goiko, nuestro caso de estudio, presenta una interfaz hiper-saturada donde la agresividad del marketing y la arquitectura compleja penalizan la operabilidad y generan fatiga en el usuario.
-
-Sin embargo, los competidores locales demuestran que la alternativa no es necesariamente mejor. **Mumama Burger** y **Mostaza Green** renuncian casi por completo al diseño de su experiencia transaccional. Al externalizar su *delivery* a plataformas como Glovo o Uber Eats, y al gestionar reservas mediante llamadas telefónicas, pierden el control sobre el *Customer Journey*. Un usuario no puede completar una tarea de principio a fin de forma autónoma en sus webs. Especialmente grave es el manejo de la accesibilidad en Mostaza Green, que obliga a escanear un QR externo para ver alérgenos mientras se navega por su propia página. En conclusión, mientras los actores locales fallan por omisión y falta de madurez digital, Goiko falla por sobrecarga cognitiva, ofreciendo una oportunidad clara para proponer un rediseño que equilibre estética y una conversión sin fricciones. 
-
 
 ### 1.c Personas
 ![Método UX](img/Persona.png) 
