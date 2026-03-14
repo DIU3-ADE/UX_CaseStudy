@@ -61,7 +61,7 @@ Nombre del equipo: DI3.ADE
 -----
 
 ## 1. Project Background (Contexto y Justificación)
-El mercado del *fast-food* premium en Granada combina un alto volumen de usuarios universitarios que exigen inmediatez digital con profesionales que buscan experiencias en local. La hipótesis central de esta investigación es que la web de Goiko prioriza el impacto visual (*food porn*) sobre la propoa usabilidad de la aplicación. Esta sobrecarga estética y la dependencia de plataformas externas para completar pedidos (*delivery*) generan fricción cognitiva y abandono en el embudo de conversión, afectando directamente a las ventas online.
+El mercado del *fast-food* premium en Granada combina un alto volumen de usuarios universitarios que exigen inmediatez digital con profesionales que buscan experiencias en local. La hipótesis central de esta investigación es que la web de Goiko prioriza el impacto visual (*food porn*) sobre la propia usabilidad de la aplicación. Esta sobrecarga estética y la dependencia de plataformas externas para completar pedidos (*delivery*) generan fricción cognitiva y abandono en el embudo de conversión, afectando directamente a las ventas online.
 
 ## 2. Research Goals & KPIs (Objetivos y Métricas)
 
