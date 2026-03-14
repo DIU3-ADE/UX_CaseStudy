@@ -144,11 +144,17 @@ Sin embargo, competidores locales como **Mostaza Green** demuestran que la alter
 ### 1.e Usability Review
 ![Método UX](img/usabilityReview.png) 
 ----
-
->>>  El objetivo es revisar la usabilidad del competidor seleccionado. Usamos un checklist de verificación. Tras usarlo, subelo a la carpeta P1/ Ofrece aquí un parrafo para:
->>> - Enlace al documento:  (xls/pdf) 
->>> - URL y Valoración numérica obtenida: 
->>> - Comentario sobre la revisión:  (puntos fuertes y débiles detectados)
+Enlace al documento:  https://github.com/DIU3-ADE/UX_CaseStudy/blob/master/P1/Usability-review-template.xls
+URL y Valoración numérica obtenida: 83
+Comentario sobre la revisión de Mostaza Green:  
+ Como puntos fuertes:
+ - La web destaca por una estética moderna y coherente. El uso de fotografía de alta calidad no solo refuerza la marca, sino que actúa como un motor de conversión directo al hacer el producto altamente deseable.
+ - Los flujos principales (pedir a domicilio y llamar al local) son extremadamente directos.
+ - Se evita la sobrecarga cognitiva con un menú muy limpio y una arquitectura de información que facilita que el usuario encuentre lo que busca en pocos clics.
+ - La experiencia está muy bien resuelta, manteniendo la velocidad de carga y la facilidad de interacción a pesar del peso visual de las imágenes.
+ Como puntos débiles:
+ - Se han detectado carencias en la gestión de estados de error en formularios complejos.
+ - Falta ayuda contextual (ejemplos) dentro de los campos de entrada de datos para guiar al usuario en tiempo real.
 
 <br>
 
