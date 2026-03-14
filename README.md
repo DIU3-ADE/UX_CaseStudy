@@ -156,6 +156,18 @@ Comentario sobre la revisión de Mostaza Green:
  - Se han detectado carencias en la gestión de estados de error en formularios complejos.
  - Falta ayuda contextual (ejemplos) dentro de los campos de entrada de datos para guiar al usuario en tiempo real.
 
+
+### 1.f Briefing
+![Método UX](img/usabilityReview.png) 
+----
+Esta revisión evalúa la eficacia de la experiencia de usuario en la web, centrándose en los flujos críticos de conversión: reserva de mesa y pedido online. Tras el análisis, se concluye que la plataforma ofrece una experiencia altamente persuasiva y visualmente excelente, aunque con oportunidades de mejora en la robustez técnica y el soporte al usuario.
+
+El diseño visual es el pilar del sitio. La alta calidad de la fotografía de producto y una jerarquía clara no solo refuerzan el branding, sino que actúan como un motor de conversión directo al reducir la carga cognitiva. La navegación es minimalista y eficiente y los flujos de "Pedido" y "Reserva" están optimizados para dispositivos móviles, con llamadas a la acción que permiten completar tareas frecuentes en pocos pasos.
+
+A pesar de ello, se han detectado debilidades en la prevención de errores. Los formularios carecen de una validación dinámica, generando fricción innecesaria. Asimismo, la arquitectura de información en secciones extensas como la carta se beneficiaría de indicadores de ubicación más claros para orientar al usuario durante el scroll. Por último, la sección de ayuda es bastante mejorable, delegando la resolución de dudas a canales externos sin ofrecer soporte web.
+
+Esta web proporciona una experiencia de usuario correcta que cumple con éxito los objetivos de negocio. Para alcanzar la excelencia, se recomienda fortalecer los mecanismos de feedback del sistema y optimizar la sección de soporte técnico.
+
 <br>
 
 ## Paso 2. UX Design  
