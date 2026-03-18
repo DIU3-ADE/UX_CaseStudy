@@ -145,8 +145,8 @@ Sin embargo, competidores locales como **Mostaza Green** demuestran que la alter
 ![Método UX](img/usabilityReview.png) 
 ----
 Enlace al documento:  https://github.com/DIU3-ADE/UX_CaseStudy/blob/master/P1/Usability-review-template_goiko.xls
-URL y Valoración numérica obtenida: 83
-Comentario sobre la revisión de Mostaza Green:  
+URL y Valoración numérica obtenida: 81
+Comentario sobre la revisión de Goiko:  
  Como puntos fuertes:
  - La web destaca por una estética moderna y coherente. El uso de fotografía de alta calidad no solo refuerza la marca, sino que actúa como un motor de conversión directo al hacer el producto altamente deseable.
  - Los flujos principales (pedir a domicilio y llamar al local) son extremadamente directos.
