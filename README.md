@@ -144,7 +144,7 @@ Sin embargo, competidores locales como **Mostaza Green** demuestran que la alter
 ### 1.e Usability Review
 ![Método UX](img/usabilityReview.png) 
 ----
-Enlace al documento:  https://github.com/DIU3-ADE/UX_CaseStudy/blob/master/P1/Usability-review-template.xls
+Enlace al documento:  https://github.com/DIU3-ADE/UX_CaseStudy/blob/master/P1/Usability-review-template_goiko.xls
 URL y Valoración numérica obtenida: 83
 Comentario sobre la revisión de Mostaza Green:  
  Como puntos fuertes:
