@@ -22,11 +22,7 @@ Grupo: DIU3_ADE.  Curso: 2025/26 Grado: Ingeniería Informática + ADE
 
 Nombre del Proyecto: Bold Burger
 
->>> Decida el nombre corto de su propuesta en la práctica 2  (rellenar más adelante)
-
-Descripción: La web muestra al usuario únicamente los productos aptos para su consumo, indicados previamente mediante un filtro.
-
->>> Describa la idea de su producto en la práctica 2  (rellenar más adelante)
+Descripción: La web muestra al usuario únicamente los productos aptos para su consumo, indicados previamente mediante un filtro.s
 
 Logotipo: 
 
