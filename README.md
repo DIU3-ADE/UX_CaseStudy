@@ -168,13 +168,11 @@ Esta web proporciona una experiencia de usuario correcta que cumple con éxito l
 
 ## Paso 2. UX Design  
 
->>> Cualquier título puede ser adaptado. Recuerda borrar estos comentarios del template en tu documento
-
-### 2.a Reframing / IDEACION: Feedback Capture Grid / EMpathy map 
+### 2.a Reframing: EMpathy map 
 ![Método UX](img/feedback-capture-grid.png) 
 ----
 
-![Empathy Map](./P2/Empathy-Map-Bold-Burger.jpg) 
+![Empathy Map](<./P2/Empathy-Map-Bold-Burger.jpg>) 
 
 
  Interesante | Críticas   
