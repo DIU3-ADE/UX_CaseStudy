@@ -205,13 +205,20 @@ Propuesta de Valor: Ofrecer una experiencia de pedido hiper-personalizada y segu
 >>> Propuesta de valor, pero ahora en vez de un texto es un ScopeCanvas que has subido a P2/ y enlazado desde aqui. Tambien vale una imagen miniatura del recurso.
 >>> No olvides que tu propuesta ya tiene un nombre corto y puedes actualizar la cabecera de este archivo
 
-
+En esta fase pasamos de las necesidades abstractas a la interacción real con la interfaz de Bold Burger.
+Para garantizar una experiencia sin fricciones, planificamos la navegación usando dos enfoques complementarios.
+El Task Flow define el camino lineal, rápido e ideal para completar una única acción específica.
+El User Flow ilustra la ruta macroscópica completa, incluyendo bifurcaciones, decisiones y alternativas.
+Analizar ambos flujos nos permite identificar y eliminar cuellos de botella antes de llegar al prototipado.
+De este modo, aseguramos que el menú seguro para el usuario y el pago exprés exijan el menor esfuerzo cognitivo posible.
 
 ### 2.b User Flow (task) analysis 
 ![Método UX](img/Sitemap.png) 
 -----
 
 >>> Definir "User Map" y "Task Flow" ... enlazar desde P2/ y describir brevemente
+
+
 
 
 ### 2.c IA: Sitemap + Labelling 
