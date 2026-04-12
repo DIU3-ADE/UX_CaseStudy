@@ -174,14 +174,19 @@ Esta web proporciona una experiencia de usuario correcta que cumple con éxito l
 ![Método UX](img/feedback-capture-grid.png) 
 ----
 
-![Journey Map Marcos](./P2/Journey_p1.jpg) 
+![Empathy Map](./P2/Empathy Customer Bold Burger.jpg) 
 
 
- Interesante | Obligar a cruzar datos entre la carta y un PDF de alérgenos genera ansiedad y desconfianza en el usuario     
+ Interesante | Críticas   
+| ------------- | -------
+En lugar de hacer que el usuario busque "qué no puede comer", la interfaz le muestra directamente "todo lo que sí puede comer" | Obligar a cruzar datos entre la carta y un PDF de alérgenos genera ansiedad y desconfianza en el usuario 
+Tratar las restricciones alimentarias (veganismo, celiaquía) no como un "problema médico" a esconder en un PDF, sino como una preferencia de estilo de vida premium | Las webs actuales interrumpen al usuario nada más entrar para pedirle el email (newsletter), lo que genera rechazo
+La sensación de que el restaurante ha creado una carta exclusiva para ti al instante | Para un celíaco, equivocarse al leer la carta mezclada puede tener consecuencias de salud, lo que genera estrés al pedir
+
+ Preguntas | Nuevas ideas   
 | ------------- | -------
   ¿Por qué el usuario debe buscar activamente lo que no puede comer en lugar de que el sistema le muestre solo lo que sí puede? | Pantalla de bienvenida interactiva para marcar alérgenos/dietas antes de ver el menú
-  ¿Por qué el usuario debe buscar activamente lo que no puede comer en lugar de que el sistema le muestre solo lo que sí puede? | Pantalla de bienvenida interactiva para marcar alérgenos/dietas antes de ver el menú
-  
+  ¿Cómo hacemos que este filtro inicial sea obligatorio pero tan rápido que no frustre al usuario que no tiene alergias (como Marcos)? | Sustituir el típico pop-up molesto de publicidad por una pantalla elegante de bienvenida: "¿Alguna alergia o dieta hoy?" con botones rápidos (Sin Gluten, Vegano, Lactosa) y un botón gigante de "Ninguna, ver todo"
     
 Las plataformas actuales de fast-food premium priorizan el marketing agresivo y la estética sobre la usabilidad y la inclusión. Esto genera dos grandes fugas en el embudo de conversión:
 - Los usuarios con prisa abandonan por la sobrecarga cognitiva (pop-ups y registros forzosos).
