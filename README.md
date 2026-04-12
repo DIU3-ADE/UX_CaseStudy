@@ -174,16 +174,23 @@ Esta web proporciona una experiencia de usuario correcta que cumple con éxito l
 ![Método UX](img/feedback-capture-grid.png) 
 ----
 
->>> Comenta con un diagrama los aspectos más destacados a modo de conclusion de la práctica anterior. De qué carece la competencia?? Tu diagrama puede ser una figura subida a la carpeta P2/
+![Journey Map Marcos](./P2/Journey_p1.jpg) 
 
 
- Interesante | Críticas     
+ Interesante | Obligar a cruzar datos entre la carta y un PDF de alérgenos genera ansiedad y desconfianza en el usuario     
 | ------------- | -------
-  Preguntas | Nuevas ideas
+  ¿Por qué el usuario debe buscar activamente lo que no puede comer en lugar de que el sistema le muestre solo lo que sí puede? | Pantalla de bienvenida interactiva para marcar alérgenos/dietas antes de ver el menú
+  ¿Por qué el usuario debe buscar activamente lo que no puede comer en lugar de que el sistema le muestre solo lo que sí puede? | Pantalla de bienvenida interactiva para marcar alérgenos/dietas antes de ver el menú
   
     
->>> Explica el Problema y plantea una hipótesis. Es decir, explica aquí qué 
->>> se plantea como "propuesta de valor" para un nuevo diseño de aplicación propio
+Las plataformas actuales de fast-food premium priorizan el marketing agresivo y la estética sobre la usabilidad y la inclusión. Esto genera dos grandes fugas en el embudo de conversión:
+- Los usuarios con prisa abandonan por la sobrecarga cognitiva (pop-ups y registros forzosos).
+- Los usuarios con restricciones alimentarias (celíacos, intolerantes, veganos) sufren fatiga y ansiedad al tener que buscar la información nutricional en secciones aisladas o PDFs externos, lo que a menudo resulta en el abandono del pedido por falta de confianza.
+
+Hipótesis y Propuesta de Valor:
+Nuestra hipótesis es que al invertir la carga de trabajo cognitivo, pasando de un modelo donde el usuario busca la información a un modelo donde el sistema filtra proactivamente, aumentaremos la tasa de conversión y la retención.
+
+Propuesta de Valor: Ofrecer una experiencia de pedido hiper-personalizada y segura desde el primer clic. Al acceder a la web, el usuario interactúa con un filtro de alérgenos y preferencias dietéticas. Una vez configurado, la interfaz genera un menú dinámico que muestra exclusivamente los productos 100% seguros y aptos para su consumo. Esto elimina el miedo, suprime la necesidad de consultar tablas externas y transforma la web en un entorno de confianza absoluta y conversión rápida.
 
 
 ### 2.b ScopeCanvas
