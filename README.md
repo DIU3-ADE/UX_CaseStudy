@@ -197,13 +197,12 @@ Propuesta de Valor: Ofrecer una experiencia de pedido hiper-personalizada y segu
 
 
 ### 2.b ScopeCanvas
-![Método UX](img/ScopeCanvas.png)
+![Método UX](img/ScopeCanvas.pdf)
 ----
 
->>> Propuesta de valor, pero ahora en vez de un texto es un ScopeCanvas que has subido a P2/ y enlazado desde aqui. Tambien vale una imagen miniatura del recurso.
->>> No olvides que tu propuesta ya tiene un nombre corto y puedes actualizar la cabecera de este archivo
-
 En este lienzo plasmamos nuestro propósito central: democratizar el fast-food mediante un menú seguro para el usuario, inclusivo y sin fricciones. Para ello, estructuramos el análisis en dolores y motivadores del usuario, acciones clave, métricas de éxito y metas operativas. Esta visión global nos ayuda a mantener el foco durante el diseño, evitando desviaciones que no aporten valor directo. En definitiva, garantiza que cada decisión de interfaz que tomemos sea medible, viable y resuelva el problema planteado inicialmente.
+
+![Empathy Map](P2/ScopeCanvasBold Burger.jpg) 
 
 ### 2.b User Flow (task) analysis 
 ![Método UX](img/Sitemap.png) 
@@ -218,14 +217,14 @@ El User Flow ilustra la ruta macroscópica completa, incluyendo bifurcaciones, d
 Analizar ambos flujos nos permite identificar y eliminar cuellos de botella antes de llegar al prototipado.
 De este modo, aseguramos que el menú seguro para el usuario y el pago exprés exijan el menor esfuerzo cognitivo posible.
 
-
+![Empathy Map](P2/UserflowBoldBurger.png)
+![Empathy Map](P2/AnalisisTareasBoldBurger.pdf) 
 
 ### 2.c IA: Sitemap + Labelling 
 ![Método UX](img/labelling.png) 
 ----
 
->>> Identificar términos para diálogo con usuario (evita el spanglish) y la arquitectura de la información. Es muy apropiado un diagrama tipo sitemap y una tabla que se ampliaría para llevar asociado la columna iconos (tanto para la web como para una app).
->>>
+![Empathy Map](P2/SitemapBoldBurger.png) 
 
 
 Término | Significado     
