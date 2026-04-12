@@ -172,7 +172,7 @@ Esta web proporciona una experiencia de usuario correcta que cumple con éxito l
 ![Método UX](img/feedback-capture-grid.png) 
 ----
 
-![Empathy Map](<./P2/Empathy-Map-Bold-Burger.jpg>) 
+![Empathy Map](P2/EmpathyMapBoldBurger.jpg) 
 
 
  Interesante | Críticas   
