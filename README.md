@@ -175,6 +175,7 @@ Esta web proporciona una experiencia de usuario correcta que cumple con éxito l
 ----
 
 ![Empathy Map](./P2/Empathy Customer Bold Burger.jpg) 
+----
 
 
  Interesante | Críticas   
