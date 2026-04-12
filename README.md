@@ -226,11 +226,25 @@ De este modo, aseguramos que el menú seguro para el usuario y el pago exprés e
 ![Método UX](img/labelling.png) 
 ----
 
->>> Identificar términos para diálogo con usuario (evita el spanglish) y la arquitectura de la información. Es muy apropiado un diagrama tipo sitemap y una tabla que se ampliaría para llevar asociado la columna iconos (tanto para la web como para una app). 
+>>> Identificar términos para diálogo con usuario (evita el spanglish) y la arquitectura de la información. Es muy apropiado un diagrama tipo sitemap y una tabla que se ampliaría para llevar asociado la columna iconos (tanto para la web como para una app).
+>>>
+
 
 Término | Significado     
 | ------------- | -------
-  Login  | acceder a plataforma
+ Plataforma Bold Burger | Punto de acceso unificado al sistema, ya sea desde navegador web o aplicación móvil.
+Página de Inicio | Pantalla principal que da la bienvenida al usuario y centraliza el acceso a las funciones clave.
+Carta Interactiva | Catálogo digital de los productos ofrecidos, estructurado por categorías para facilitar la navegación.
+Pedidos a Domicilio	 | Sección integral dedicada a la configuración, gestión y envío de comida a la dirección del usuario.
+Filtro de Alérgenos	 | Herramienta de seguridad que permite al usuario excluir productos según intolerancias o dietas específicas (celiaquía, veganismo, etc.).
+Hamburguesas	 | Categoría principal de la carta que agrupa todas las opciones de hamburguesas disponibles.
+Entrantes y Acompañantes	 | Categoría secundaria de la carta para platos diseñados para compartir o acompañar el plato principal.
+Bebidas y Postres	 | Categoría final de la carta que incluye refrescos, opciones alcohólicas y dulces.
+Cesta de la Compra	 | Espacio temporal donde el usuario revisa y modifica los productos seleccionados antes de finalizar su pedido.
+Pago Rápido  | (1-Clic)	Sistema de abono acelerado mediante plataformas móviles integradas (billeteras digitales) que no requiere introducir datos manuales.
+Pago Tradicional	 | Proceso de compra estándar que requiere la introducción manual de datos personales, dirección de envío y tarjeta bancaria.
+Sobre Nosotros	 | Espacio corporativo que relata la historia, la filosofía y el compromiso de la marca.
+Contacto y Preguntas Frecuentes	 | Sección de soporte que resuelve dudas comunes y proporciona vías de comunicación directa con el servicio de atención al cliente.
 
 
 ### 2.d Wireframes
