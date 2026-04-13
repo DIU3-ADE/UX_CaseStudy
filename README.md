@@ -258,20 +258,20 @@ El proceso comenzó con una fase de ideación rápida plasmada en [bocetos a man
 
 
 Filtro y Bienvenida: La pantalla de intercepción inicial.
-[wireframe1](P2/wireframes/wireframe1.png)
+![wireframe1](P2/wireframes/wireframe1.png)
 
 
 Catálogo Dinámico: La vista del menú seguro.
-[wireframe2](P2/wireframes/wireframe2.png)
+![wireframe2](P2/wireframes/wireframe2.png)
 
 
 Personalización de productos: El panel modal para editar ingredientes.
-[wireframe3](P2/wireframes/wireframe3.png)
+![wireframe3](P2/wireframes/wireframe3.png)
 
 
 Checkout final y pago: La bifurcación del embudo de conversión.
 
-[wireframe4](P2/wireframes/wireframe4.png)
+![wireframe4](P2/wireframes/wireframe4.png)
 
 <br>
 
