@@ -254,7 +254,7 @@ El diseño web/móvil se ha planteado bajo un enfoque estrictamente funcional y 
 Nos hemos centrado principalmente en los problemas de cumplir con el filtrado de alérgenos y tener la disponibilidad de realizar un pago rápido.
 
 
-El proceso comenzó con una fase de ideación rápida plasmada en [bocetos a mano](P2/Bocetos_DIU), lo que permitió definir las cuatro vistas fundamentales de la interacción sin restricciones técnicas:
+El proceso comenzó con una fase de ideación rápida plasmada en [bocetos a mano](P2/Bocetos_DIU.pdf), lo que permitió definir las cuatro vistas fundamentales de la interacción sin restricciones técnicas:
 
 
 Filtro y Bienvenida: La pantalla de intercepción inicial.
