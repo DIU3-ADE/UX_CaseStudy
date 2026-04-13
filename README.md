@@ -248,7 +248,30 @@ Contacto y Preguntas Frecuentes	 | Sección de soporte que resuelve dudas comune
 ![Método UX](img/Wireframes.png) 
 -----
 
->>> Plantear el diseño del layout para Web/movil (organización y simulación). Describa la herramienta usada 
+Se ha utilizado Figma para la digitalización de los  bocetos de wireframes.
+El diseño web/móvil se ha planteado bajo un enfoque estrictamente funcional y de baja fidelidad (Low-Fidelity). Todo el esqueleto visual se apoya en un sistema de cuadrícula de 12 columnas, haciendo uso de grid layout. 
+
+Nos hemos centrado principalmente en los problemas de cumplir con el filtrado de alérgenos y tener la disponibilidad de realizar un pago rápido.
+
+
+El proceso comenzó con una fase de ideación rápida plasmada en [bocetos a mano](P2/Bocetos), lo que permitió definir las cuatro vistas fundamentales de la interacción sin restricciones técnicas:
+
+
+Filtro y Bienvenida: La pantalla de intercepción inicial.
+[wireframe1](P2/wireframes/wireframe1.png)
+
+
+Catálogo Dinámico: La vista del menú seguro.
+[wireframe2](P2/wireframes/wireframe2.png)
+
+
+Personalización de productos: El panel modal para editar ingredientes.
+[wireframe3](P2/wireframes/wireframe3.png)
+
+
+Checkout final y pago: La bifurcación del embudo de conversión.
+
+[wireframe4](P2/wireframes/wireframe4.png)
 
 <br>
 
