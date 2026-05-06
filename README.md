@@ -359,8 +359,8 @@ Componentes irreductibles, sin dependencias de otros componentes del sistema.
 | **CategoryTab** | inline en MenuScreen | Píldora con estado activo |
 | **Input Field** | nativo + estilos token | Estados default / focus (border-primary) |
 
-![Captura: pestaña Átomos 1](docs/img/ds_atomos_1.png)
-![Captura: pestaña Átomos 2](docs/img/ds_atomos_2.png)
+![Captura: pestaña Átomos 1](P3/ds_atomos_1.png)
+![Captura: pestaña Átomos 2](P3/ds_atomos_2.png)
 
 #### 🧬 Moléculas
 
