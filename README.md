@@ -434,9 +434,20 @@ Como cierre, la pestaña **Screens Breakdown** documenta — para cada pantalla 
 
 ### 3.d Mockup
 ![Método UX](img/mockup.png) 
-----
+El layout Hi-Fi del prototipo se ha implementado directamente en **Figma Make**, aplicando los componentes del Design System descrito en el punto 3 con Auto Layout responsive (mobile / tablet / desktop) y simulando comportamientos de transición (estados de botones, apertura del modal de personalización, navegación entre pantallas).
 
->>> Consiste en tener un Layout en acción. Un Mockup es un prototipo HTML que permite simular tareas con estilo de IU seleccionado. Muy útil para compartir con stakeholders
+El prototipo cubre el flujo completo:
+
+1. **Bienvenida** (`WelcomeScreen`) — Header + filtro de alérgenos + CTA primario.
+2. **Menú de navegación** (`MenuScreen`) — Header con filtros activos, tabs de categorías, grilla de ProductCards y FAB de carrito.
+3. **Detalles de contenido** (`ProductCustomizationModal`) — Personalización de producto con extras y total dinámico.
+4. **Checkout** (`CheckoutScreen`) — Layout 2/3 + 1/3 con resumen, métodos de pago y formulario de tarjeta.
+5. **Confirmación** — Pantalla de éxito con número de pedido.
+
+🔗 **Implementación interactiva del prototipo Hi-Fi**:
+https://www.figma.com/make/BfRL0v8kemXdSN3ozQ5sRF/Prototipo-de-interfaz-hi-fi?fullscreen=1&t=a9exmg2fTpDuecN2-1
+
+> Consejos de buenas prácticas seguidos: https://uxdesign.cc/10-figma-best-practices-to-10x-your-workflow-76d6336daf2a
 
 
 <br>
