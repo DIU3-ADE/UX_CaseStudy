@@ -415,14 +415,14 @@ Como cierre, la pestaña **Screens Breakdown** documenta — para cada pantalla 
 
 | # | Pantalla | Captura |
 |---|----------|---------|
-| 1 | Welcome — Estado inicial | ![](docs/img/sb-15.png) |
-| 2 | Welcome — Con alérgenos seleccionados | ![](docs/img/sb-16.png) |
-| 3 | Menu — Catálogo con filtros activos | ![](docs/img/sb-17.png) |
-| 4 | Product Customization Modal — Cabecera | ![](docs/img/sb-18.png) |
-| 5 | Product Customization Modal — Resumen y CTA | ![](docs/img/sb-19.png) |
-| 6 | Floating Cart Button | ![](docs/img/sb-20.png) |
-| 7 | Checkout — Resumen y selección de pago | ![](docs/img/sb-21.png) |
-| 8 | Checkout — Pago con tarjeta | ![](docs/img/sb-22.png) |
+| 1 | Welcome — Estado inicial | ![](P3/image-15.png) |
+| 2 | Welcome — Con alérgenos seleccionados | ![](P3/image-16.png) |
+| 3 | Menu — Catálogo con filtros activos | ![](P3/image-17.png) |
+| 4 | Product Customization Modal — Cabecera | ![](P3/image-18.png) |
+| 5 | Product Customization Modal — Resumen y CTA | ![](P3/image-19.png) |
+| 6 | Floating Cart Button | ![](P3/image20.png) |
+| 7 | Checkout — Resumen y selección de pago | ![](P3/image-21.png) |
+| 8 | Checkout — Pago con tarjeta | ![](P3/image-22.png) |
 
 ### Recursos consultados
 
