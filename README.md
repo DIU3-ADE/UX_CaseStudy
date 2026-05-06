@@ -298,11 +298,139 @@ Checkout final y pago: La bifurcación del embudo de conversión.
 
 ### 3.c Guidelines
 ![Método UX](img/guidelines.png) 
-----
+## 3. Lenguaje visual: Design System
 
->>> Estudio de Guidelines y explicación de los Patrones IU a usar 
->>> Es decir, tras documentarse, muestre las deciones tomadas sobre Patrones IU a usar para la fase siguiente de prototipado. 
+Para BoldBurger se ha implementado un **Design System ligero a medida** siguiendo la metodología **Atomic Design** (Brad Frost), evitando frameworks rígidos como Material 3. El sistema vive 1:1 entre Figma y el código React + Tailwind CSS v4, usando **design tokens** como puente entre ambos mundos.
 
+El sistema completo es navegable dentro del propio prototipo en la pantalla `DesignSystemScreen.tsx` (botón "Design System" en la cabecera), organizada en 7 pestañas: **Colors · Semantic Tokens · Screen · Átomos · Moléculas · Organismos · Screens Breakdown**.
+![Captura: Intro design system](P3/intro_design_system.png)
+
+### a) Foundations — Cimientos del sistema
+
+#### 🎨 Sistema de color
+
+Se han definido cinco rampas cromáticas en `src/styles/theme.css` como CSS custom properties, junto con una capa de **tokens semánticos** que abstrae el uso final (background, foreground, primary, primary-hover, etc.).
+
+| Rampa | Tokens | Uso |
+|-------|--------|-----|
+| **Naranja Bold** | `orange-300` → `orange-600` (principal `#FF5733`) | Color de marca, CTAs |
+| **Verde** | `green-500` / `green-700` / `green-900` | Color secundario |
+| **Dorado** | `gold-500` (`#D4AF37`) | Acentos, ratings |
+| **Azul Petróleo** | `petrol-300` / `petrol-500` / `petrol-700` | Tertiary, info |
+| **Neutrales** | `neutral-50` → `neutral-900` | Fondos y texto |
+
+Encima viven los tokens semánticos: `--primary`, `--primary-foreground`, `--primary-hover`, `--secondary`, `--tertiary`, `--destructive`, `--muted`, `--border`, etc. Los contrastes se han validado para cumplir **WCAG AA**.
+
+![Captura: pestaña Colors](P3/ds_colors.png)
+![Captura: pestaña Semantic Tokens 1](P3/ds_semantic_tokens_1.png)
+![Captura: pestaña Semantic Tokens 2](P3/ds_semantic_tokens_2.png)
+
+#### ✍️ Arquitectura tipográfica
+
+- **Familia única**: Manrope (400, 500, 700, 800), importada en `src/styles/fonts.css`.
+- **Escala modular**: H1 32px / 800 · H2 24px / 700 · H3 18-20px / 700 · Body 16px / 400 · Small 14px / 400.
+- Estilos aplicados por defecto a las etiquetas HTML correspondientes — no se usan utilidades Tailwind para tamaño/peso/line-height.
+
+#### 📐 Grid & Spacing
+
+- **Base 8px** materializada como tokens `--space-1` (8) → `--space-8` (64).
+- **Grid de 12 columnas** con gaps de 16px (móvil) / 24px (desktop).
+- **Breakpoints**: Mobile <640px (1 col) · Tablet 640-1024px (2 col) · Desktop >1024px (3-4 col).
+- **Border radius** tokenizados: `--radius-sm` (4) · `--radius` (8) · `--radius-lg` (12) · `--radius-xl` (16).
+
+![Captura: pestaña Screen (grid + spacing)](P3/ds_screen.png)
+
+### b) Atomic Design — Componentes y patrones
+
+Todos los componentes viven en `src/app/components/` y son consumidos por las pantallas en `src/app/screens/`.
+
+#### ⚛️ Átomos
+
+Componentes irreductibles, sin dependencias de otros componentes del sistema.
+
+| Componente | Archivo | Variantes / Props |
+|------------|---------|-------------------|
+| **Logo** | `Logo.tsx` | `size` sm/md/lg |
+| **Button** | `Button.tsx` | `variant` primary/secondary/outline/ghost · `size` sm/md/lg · `fullWidth` · `disabled` |
+| **IconButton** | `IconButton.tsx` | `variant` ghost/outline/solid · `size` sm/md/lg · `aria-label` obligatorio |
+| **Badge** | `Badge.tsx` | `variant` primary/secondary/neutral/success · `size` sm/md |
+| **AllergenIcon** | `AllergenIcon.tsx` | 14 símbolos UE oficiales con paths SVG y `currentColor` |
+| **AllergenTag** | `AllergenTag.tsx` | `selected` · `removable` (X) |
+| **CategoryTab** | inline en MenuScreen | Píldora con estado activo |
+| **Input Field** | nativo + estilos token | Estados default / focus (border-primary) |
+
+![Captura: pestaña Átomos 1](docs/img/ds_atomos_1.png)
+![Captura: pestaña Átomos 2](docs/img/ds_atomos_2.png)
+
+#### 🧬 Moléculas
+
+Combinaciones funcionales de varios átomos.
+
+| Componente | Archivo | Composición |
+|------------|---------|-------------|
+| **FilterCard** | `FilterCard.tsx` | AllergenIcon + label + estado selected |
+| **ProductCard** | `ProductCard.tsx` | Imagen 4:3 + título + descripción + precio + AllergenTag + Button "Añadir" |
+| **CartItem** | `CartItem.tsx` | Imagen 80×80 + título + extras + QuantityStepper + IconButton eliminar + precio total |
+| **QuantityStepper** | `QuantityStepper.tsx` | IconButton − / valor / IconButton + (con `min`/`max` y disabled) |
+| **ExtraOptionRow** | `ExtraOptionRow.tsx` | Checkbox + label + precio (`+X.XX€`) |
+| **PriceSummaryRow** | `PriceSummaryRow.tsx` | Label + valor con modo `emphasis` para totales |
+| **FloatingCartButton** | `FloatingCartButton.tsx` | Icono carrito + Badge contador + total |
+| **PaymentMethodCard** | `PaymentMethodCard.tsx` | Icono cuadrado + label + sublabel + radio nativo |
+
+![Captura: pestaña Moléculas 1](P3/ds_moleculas_1.png)
+![Captura: pestaña Moléculas 2](P3/ds_moleculas_2.png)
+![Captura: pestaña Moléculas 3](P3/ds_moleculas_3.png)
+
+#### 🧠 Organismos
+
+Secciones complejas que componen moléculas y átomos.
+
+| Componente | Archivo | Función |
+|------------|---------|---------|
+| **Navbar** | `Navbar.tsx` | Header sticky con grid 3-col (leading / Logo / trailing) |
+| **AllergenSummaryBar** | `AllergenSummaryBar.tsx` | Caja tint primary con título dinámico singular/plural y AllergenTags |
+| **ActiveFiltersBar** | `ActiveFiltersBar.tsx` | Barra horizontal con icono Filter + chips activos + acción Limpiar |
+| **OrderSummaryCard** | `OrderSummaryCard.tsx` | PriceSummaryRow × N + lista de PaymentMethodCard |
+| **CreditCardForm** | `CreditCardForm.tsx` | Grid responsive: número (full) + MM/AA + CVV |
+| **ProductCustomizationModal** | `ProductCustomizationModal.tsx` | Overlay + scroll + ExtraOptionRow + PriceSummaryRow + CTA |
+| **Success / Confirmation** | inline | Icono check + número de pedido + Button |
+
+![Captura: pestaña Organismos 1](P3/ds_organismos_1.png)
+![Captura: pestaña Organismos 2](P3/ds_organismos_2.png)
+![Captura: pestaña Organismos 3](P3/ds_organismos_3.png)
+
+#### 🔁 Patrones de UI
+
+- **Filter-first pattern** — el filtrado de alérgenos ocurre **antes** de ver el menú (`WelcomeScreen`), reduciendo fricción y ansiedad para usuarios con intolerancias. Lógica de intersección AND sobre los 14 símbolos UE.
+- **Quick payment pattern** — selección entre Pago rápido (Apple/Google Pay, 1 click) y formulario de tarjeta tradicional.
+- **Progressive disclosure** — el `ProductCustomizationModal` solo aparece cuando hay extras configurables; en otro caso, "Añadir" es directo.
+
+#### Variantes y Auto Layout
+
+En Figma, cada átomo se ha definido como un único componente con **variantes** (`variant`, `size`, `state`) en lugar de duplicar nodos. El uso intensivo de **Auto Layout** garantiza que las moléculas y organismos respondan correctamente al cambio de breakpoint, espejando el comportamiento de Tailwind en código.
+
+### Screens Breakdown
+
+Como cierre, la pestaña **Screens Breakdown** documenta — para cada pantalla clave del prototipo — qué átomos, moléculas y organismos del sistema se reutilizan en cada caso. Esto valida la **modularidad** del Design System: cualquier pantalla nueva debería poder construirse combinando piezas existentes.
+
+| # | Pantalla | Captura |
+|---|----------|---------|
+| 1 | Welcome — Estado inicial | ![](docs/img/sb-15.png) |
+| 2 | Welcome — Con alérgenos seleccionados | ![](docs/img/sb-16.png) |
+| 3 | Menu — Catálogo con filtros activos | ![](docs/img/sb-17.png) |
+| 4 | Product Customization Modal — Cabecera | ![](docs/img/sb-18.png) |
+| 5 | Product Customization Modal — Resumen y CTA | ![](docs/img/sb-19.png) |
+| 6 | Floating Cart Button | ![](docs/img/sb-20.png) |
+| 7 | Checkout — Resumen y selección de pago | ![](docs/img/sb-21.png) |
+| 8 | Checkout — Pago con tarjeta | ![](docs/img/sb-22.png) |
+
+### Recursos consultados
+
+- IxDF (2021). *What are Design Systems?* — https://www.interaction-design.org/literature/topics/design-systems
+- UX Planet (2023). *Design System — Fundamental principles for designing and developing a robust Design System* — https://uxplanet.org/design-system-fundamental-principles-for-designing-and-developing-a-robust-design-system-2265f2c93627
+- Brad Frost. *Atomic Design* — https://atomicdesign.bradfrost.com/
+
+---
 
 ### 3.d Mockup
 ![Método UX](img/mockup.png) 
