@@ -449,7 +449,8 @@ https://www.figma.com/make/BfRL0v8kemXdSN3ozQ5sRF/Prototipo-de-interfaz-hi-fi?fu
 
 > Consejos de buenas prácticas seguidos: https://uxdesign.cc/10-figma-best-practices-to-10x-your-workflow-76d6336daf2a
 
-
+### 5. [BRIEFING]
+Describe brevemente el proceso llevado a cabo con los puntos fuertes del diseño y principales conclusiones. De debe incidir en las heramientas usadas (IA/tools) y su efectividad para lograr objetivo
 <br>
 
 ## Paso 4. Pruebas de Evaluación 
