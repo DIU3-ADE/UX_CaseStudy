@@ -453,7 +453,40 @@ https://www.figma.com/make/BfRL0v8kemXdSN3ozQ5sRF/Prototipo-de-interfaz-hi-fi?fu
 Describe brevemente el proceso llevado a cabo con los puntos fuertes del diseño y principales conclusiones. De debe incidir en las heramientas usadas (IA/tools) y su efectividad para lograr objetivo
 <br>
 
-## Paso 4. Pruebas de Evaluación 
+
+## Paso 4. Exportación y Documentación 
+
+
+### 4.a Exportación a HTML/React
+![Método UX](img/usabilityReview.png) 
+----
+
+**Creación de la App React con Figma Make:** Para convertir nuestro diseño visual final en código interactivo, hemos utilizado Figma Make (la IA integrada de Figma). Esta herramienta procesó nuestros diseños y generó automáticamente una estructura de proyecto basada en **React, Vite y Tailwind CSS**, utilizando Radix UI para los componentes. 
+
+Posteriormente, exportamos el archivo `P4.zip`, lo abrimos en nuestro entorno local (VS Code) y ejecutamos los comandos `npm install` y `npm run dev` para comprobar que el código funcionaba perfectamente en el navegador. Las evidencias de este paso quedan subidas a P4/
+
+![EJecución en localhost ](P4/imagen_localhost.png) 
+
+
+### 4.b Despliegue y Publicación
+![Método UX](img/usabilityReview.png) 
+----
+
+**Proceso de Despliegue:** Figma Make nos ha permitido agilizar el despliegue prescindiendo de configuraciones manuales o hostings externos. La propia plataforma de Figma funciona como entorno de producción, alojando y compilando el código generado de manera automática y asignándole una URL estable.
+
+🔗 **Enlace para la evaluación:** Puedes navegar por la versión interactiva de nuestra aplicación en el siguiente enlace de producción: 
+👉 [Ver aplicación en Figma Make](https://www.figma.com/make/BfRL0v8kemXdSN3ozQ5sRF/Prototipo-de-interfaz-hi-fi?fullscreen=1&t=zNvhiamrHp4wa7Qm-1&code-node-id=0-9) (aunque esto también lo subimos en la P3)
+
+
+### 4.c Conclusión
+![Método UX](img/usabilityReview.png) 
+----
+
+El uso de Figma Make ha sido clave para dar el salto del diseño UI al Desarrollo Front-end. Al dejar que la IA se encargue de la maquetación base, hemos ahorrado horas de depuración de estilos. Como resultado, hemos obtenido una estructura limpia y modular en React, convirtiendo el prototipo estático en una aplicación real, responsiva y totalmente funcional.
+
+
+----
+## Paso 5. Pruebas de Evaluación 
 
 ### 4.a Reclutamiento de usuarios 
 ![Método UX](img/usability-testing.png)
@@ -522,21 +555,7 @@ Para más información, consultar aquí sobre la [metodología SUS](https://cui.
 
 <br>
 
-## Paso 5. Exportación y Documentación 
 
-
-### 5.a Exportación a HTML/React
-![Método UX](img/usabilityReview.png) 
-----
-
->>> Breve descripción de esta tarea. Las evidencias de este paso quedan subidas a P5/
-
-
-### 5.b Documentación con Storybook
-![Método UX](img/usabilityReview.png)
-----
-
->>> Breve descripción de esta tarea. Las evidencias de este paso quedan subidas a P5/
 
 
 <br>
