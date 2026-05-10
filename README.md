@@ -22,11 +22,13 @@ Grupo: DIU3_ADE.  Curso: 2025/26 Grado: Ingeniería Informática + ADE
 
 Nombre del Proyecto: Bold Burger
 
-Descripción: La web muestra al usuario únicamente los productos aptos para su consumo, indicados previamente mediante un filtro.s
+Descripción: La web muestra al usuario únicamente los productos aptos para su consumo, indicados previamente mediante un filtro.
 
 Logotipo: 
 
->>> Si diseña un logotipo para su producto en la práctica 3 pongalo aqui, a un tamaño adecuado. Si diseña un slogan añadalo aquí (rellenar más adelante)
+![Logo Bold Burger](P3/logo.png)
+
+**Slogan:** *Be bold, Bite big* — Transmite la esencia de marca: audacia, inclusión y confianza en cada bocado. Refleja nuestra promesa de ofrecer un fast-food sin compromisos: seguro, rápido y accesible.
 
 Miembros y nombre del equipo:
 Nombre del equipo: DI3.ADE
@@ -277,17 +279,17 @@ Checkout final y pago: La bifurcación del embudo de conversión.
 
 ## Paso 3. Mi UX-Case Study (diseño)
 
->>> Cualquier título puede ser adaptado. Recuerda borrar estos comentarios del template en tu documento
-
 
 ### 3.a Moodboard
-![Método UX](img/moodboard.png)
------
 
->>> Diseño visual con una guía de estilos visual (moodboard) 
->>> Incluir Logotipo. Todos los recursos estarán subidos a la carpeta P3/
->>> Explique aqui la/s herramienta/s utilizada/s y el por qué de la resolución empleada. Reflexione ¿Se puede usar esta imagen como cabecera de Instagram, por ejemplo, o se necesitan otras?
+**Evidencia visual:** [P3/Moodboard_BoldBurger.png](P3/Moodboard_BoldBurger.png)
 
+El moodboard de **Bold Burger** refleja un fast-food premium con identidad clara y accesible. La propuesta visual integra colores, logo y tipografía entre otros.
+
+#### Herramientas utilizadas
+
+- **Figma (Make):** Moodboard, componentes y design system interactivo.
+- **Exportación:** PNG 1200×1600px @ 144dpi (resolución web + impresión).
 
 ### 3.b Landing Page
 ![Método UX](img/landing-page.png) 
