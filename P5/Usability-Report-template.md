@@ -6,37 +6,33 @@
 
 ### Evaluación de usabilidad del proyecto  [NOMBRE PROYECTO]
 
-[Fecha]
+23 de mayo de 2026
 
 [img Proyecto]
 
-[Enlace a GITHUB del proyecto]
+[\[Enlace a GITHUB del proyecto\]](https://github.com/Practicas-DIU3-RESCUE/UX_CaseStudy/)
 
 ### Realizado por:  
 
-[Informe realizado por Equipo (quien hace el report) explicar brevemente vuestra experiencia ]
+Informe realizado por Equipo DIU3.ADE, creadores de BOLD BURGER.
 
-
- 
 
 
 ## 1 RESUMEN EJECUTIVO  (Executive Summary)
 
-[ Es la sección más importante para los interesados (stakeholders). Debe ocupar una sola página] .
-
-- **Objetivo:** ¿Qué evaluamos y por qué?
-- **Metodología:** Breve mención del A/B Testing, SUS y Eye Tracking.
-- **Principales Hallazgos:** Los 3 puntos más críticos encontrados.
-- **Resultado Global:** Puntuación SUS media y si el diseño es "Aceptable" o no.
+- **Objetivo**: Evaluar la usabilidad, accesibilidad y carga cognitiva del prototipo de fidelización "GoikoMes" (Caso B) frente a nuestra propuesta "Bold Burger" (Caso A), identificando puntos de fricción reales en el flujo de interacción.
+- **Metodología**: Se ha empleado un enfoque mixto: Task-based testing simulado, medición de satisfacción mediante Cuestionario SUS, evaluación heurística (WCAG) y simulación de análisis biométrico visual (Eye Tracking).
+- **Principales Hallazgos: 1. Inconsistencia Crítica en CTAs: Los botones para "Votar" están etiquetados como "PEDIR AHORA", generando bloqueo cognitivo.
+2. Accesibilidad Deficiente: Graves problemas de contraste (textos rojos sobre fondos negros) y tipografía minúscula.
+3. Jerarquía Visual Confusa: Textos importantes ("VOTA") camuflados gráficamente sobre las texturas de las hamburguesas.
+- **Resultado Global**: Aunque el diseño es fiel a la identidad de marca (dark), sacrifica principios vitales de usabilidad y accesibilidad, penalizando la experiencia del usuario.
 
 
 ## 2. Metodología y Reclutamiento
 
-[Describe el "cómo"]
-
-- **Perfil de los participantes:** Resumen de la tabla demográfica (edad media, nivel digital).
-- **Escenario de la prueba:** Descripción de las tareas que realizaron los usuarios.
-- **Herramientas:** Mención de **GazeMapping**, Tally y herramientas de accesibilidad.
+- **Perfil de los participantes**: Muestra de 4 usuarios con perfiles variados. Edad media de 22 años. Nivel de competencia digital mixta (desde baja hasta alta). Destacan perfiles que requieren inmediatez (abogada con poco tiempo) y detalle analítico (estudiante detallista).
+- **Escenario de la prueba**: Se asignó a los usuarios la tarea de acceder a la pantalla "Votaciones del mes", analizar los ingredientes de las tres opciones propuestas y emitir un voto efectivo por su favorita.
+- **Herramientas**: Evaluación heurística (Checklist P1), Cuestionario SUS, herramientas de revisión de contraste WCAG, y simulación de GazeRecorder para el seguimiento ocular.
 
 ## 3. Resultados del Cuestionario SUS (Datos Cuantitativos)
 
@@ -52,9 +48,9 @@ Valoración numérica del SUS -
 
 [Presenta la evidencia visual del comportamiento del usuario]
 
-- **Heatmaps (Mapas de calor):** Incluye las capturas de GazeMapping. Comenta si los usuarios miraron los **POI** (Puntos de Interés) definidos.
-- **Zonas de Silencio:** Identifica elementos importantes que fueron totalmente ignorados.
-- **Hallazgo clave:** Ejemplo: "El 80% de los usuarios ignoró el botón de CTA debido a su ubicación en el margen inferior".
+- **Heatmaps (Mapas de calor):** Los mapas de calor simulados muestran una fortísima concentración de fijaciones en las imágenes centrales de las hamburguesas. Sin embargo, el área de los CTAs muestra un patrón errático, indicando que el usuario mira el botón pero duda si hacer clic.
+- **Zonas de Silencio:** Las listas de hamburguesas debajo del carrusel principal y los textos de información legal apenas registran fijaciones debido a la falta de contraste lumínico.
+- **Hallazgo clave:** Ejemplo: El 100% de los usuarios sufrió confusión al leer "PEDIR AHORA" en la zona donde esperaban la acción de votar. Además, el gran texto "VOTA" impreso directamente sobre los panes de las hamburguesas pasó completamente desapercibido como texto legible..
 
 ## 5. Auditoría de Accesibilidad
 
