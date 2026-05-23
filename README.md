@@ -490,22 +490,28 @@ El uso de Figma Make ha sido clave para dar el salto del diseño UI al Desarroll
 ----
 ## Paso 5. Pruebas de Evaluación 
 
-### 4.a Reclutamiento de usuarios 
+### 5.a Reclutamiento de usuarios 
 ![Método UX](img/usability-testing.png)
 -----
 
->>> Breve descripción del caso asignado (llamado Caso-B) con enlace al repositorio Github
->>> Tabla y asignación de personas ficticias (o reales) a las pruebas. Exprese las ideas de posibles situaciones conflictivas de esa persona en las propuestas evaluadas. Mínimo 4 usuarios: asigne 2 al Caso A y 2 al caso B.
+El Caso B evaluado es el proyecto GoikoMes, desarrollado por el equipo DIU3.RESCUE. Se trata de una iniciativa de fidelización y gamificación integrada en el ecosistema de la hamburguesería Goiko. Su propuesta de valor consiste en permitir a los clientes votar mensualmente entre tres nuevas propuestas de hamburguesas; la ganadora se añade a la carta el mes siguiente. Podemos encontrar el desarrollo en https://github.com/Practicas-DIU3-RESCUE/UX_CaseStudy/
 
+A continuación, se define la batería de usuarios (ficticios) reclutados para someter a prueba tanto nuestro diseño (Caso A) como el diseño de GoikoMes (Caso B), abarcando diferentes niveles de competencia tecnológica y personalidades
 
+Tabla y asignación de personas ficticias  a las pruebas
 
 | Usuarios | Sexo/Edad     | Ocupación   |  Exp.TIC    | Personalidad | Plataforma | Caso
 | ------------- | -------- | ----------- | ----------- | -----------  | ---------- | ----
-| User1's name  | H / 18   | Estudiante  | Media       | Introvertido | Web.       | A 
-| User2's name  | H / 18   | Estudiante  | Media       | Timido       | Web        | A 
-| User3's name  | M / 35   | Abogado     | Baja        | Emocional    | móvil      | B 
-| User4's name  | H / 18   | Estudiante  | Media       | Racional     | Web        | B 
+| Marcos  | H / 18   | Estudiante  | Media       | Introvertido | Web.       | A 
+| David  | H / 20   | Estudiante  | Alta       | Timido       | Web        | A 
+| Paula | M / 35   | Abogada     | Baja        | Emocional    | móvil      | B 
+| Hugo  | H / 18   | Estudiante  | Media       | Racional     | Web        | B 
 
+Para sacar a la luz los posibles problemas de usabilidad, se ha planteado un escenario donde cada usuario se enfrenta a un caso de uso que choca con su perfil:
+•	Marcos (Caso A - Web): Al ser introvertido, Marcos prefiere interfaces claras donde no tenga que pedir ayuda. Una situación conflictiva sería que el flujo principal de la aplicación requiera demasiados pasos innecesarios o que la información clave esté oculta bajo menús poco intuitivos, generándole frustración y abandono de la tarea.
+•	David (Caso A - Web): David es tímido y necesita sentir que tiene el control de lo que hace en la web. El conflicto con él aparecería si, tras aplicar los filtros de comida, el feedback visual del sistema no es claro. Es decir, si la interfaz no le confirma de forma evidente que los productos mostrados son 100% seguros para su dieta, generándole inseguridad a la hora de finalizar el pedido.
+•	Paula (Caso B - Móvil): Al tener baja experiencia tecnológica, usar el móvil y ser emocional, Paula busca inmediatez tras un día estresante en el bufete. El conflicto principal surge si entra a la web de GoikoMes simplemente queriendo pedir su hamburguesa de siempre, pero se ve forzada a interactuar con el sistema de "votación" mediante pop-ups o banners intrusivos. Si la interfaz móvil está sobrecargada de imágenes pesadas y le cuesta encontrar el botón de "Saltar" o "Hacer pedido", su frustración será alta.
+•	Hugo (Caso B - Web): Hugo es racional y está acostumbrado a navegar. Su situación conflictiva en GoikoMes aparecerá en la página de las votaciones de las tres hamburguesas. Al ser analítico, querrá comparar al detalle los ingredientes, alérgenos y valores nutricionales de cada propuesta antes de dar su voto. Si el diseño visual de las tarjetas de producto prioriza únicamente la estética (fotos grandes) y oculta o dificulta la lectura de la información técnica (obligándole a hacer clics extra o abrir nuevas pestañas), considerará que el sistema es ineficiente.
 
 ### 4.b Diseño de las pruebas 
 ![Método UX](img/usability-testing.png) 
