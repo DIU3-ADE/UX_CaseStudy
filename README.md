@@ -564,13 +564,16 @@ El Caso A (Bold Burger) resulta notablemente más usable. Su enfoque centrado en
 ![Método UX](img/eye-tracking.png)
 ----
 
->>> Indica cómo se diseña el experimento y se reclutan los usuarios. Explica la herramienta / uso de gazerecorder.com u otra similar. Aplíquese únicamente al caso B.
+Para el experimento de Eye Tracking sobre el Caso B (GoikoMes), hemos simulado el uso de GazeRecorder (o herramientas similares) con la pantalla "Votaciones del mes".
+Diseño del experimento:
+Se instruye al usuario con la tarea: "Decide a qué hamburguesa votarías e intenta emitir tu voto".
+Resultados del análisis :
+El mapa de calor revela una alta dispersión de la mirada. Las fijaciones se concentrarían fuertemente en las imágenes de las hamburguesas, pero el usuario pasaría mucho tiempo buscando el botón de votar, ya que los botones disponibles dicen "PEDIR AHORA". Además, el texto "VOTA" integrado visualmente dentro de los panes de las hamburguesas pasa desapercibido por la falta de contraste, generando confusión (saccades erráticos buscando la acción correcta).
 
 
 ![experimento](img/experimentoET.png)  
->>> Cambiar esta img por una de vuestro experimento. El recurso deberá estar subido a la carpeta P4/  
 
->>> gazerecorder en versión de pruebas puede estar limitada a 3 usuarios para generar mapa de calor (crédito > 0 para que funcione) 
+
 
 
 ### 5.f Usability Report de B
