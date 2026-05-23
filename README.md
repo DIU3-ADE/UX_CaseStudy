@@ -513,15 +513,25 @@ Para sacar a la luz los posibles problemas de usabilidad, se ha planteado un esc
 •	Paula (Caso B - Móvil): Al tener baja experiencia tecnológica, usar el móvil y ser emocional, Paula busca inmediatez tras un día estresante en el bufete. El conflicto principal surge si entra a la web de GoikoMes simplemente queriendo pedir su hamburguesa de siempre, pero se ve forzada a interactuar con el sistema de "votación" mediante pop-ups o banners intrusivos. Si la interfaz móvil está sobrecargada de imágenes pesadas y le cuesta encontrar el botón de "Saltar" o "Hacer pedido", su frustración será alta.
 •	Hugo (Caso B - Web): Hugo es racional y está acostumbrado a navegar. Su situación conflictiva en GoikoMes aparecerá en la página de las votaciones de las tres hamburguesas. Al ser analítico, querrá comparar al detalle los ingredientes, alérgenos y valores nutricionales de cada propuesta antes de dar su voto. Si el diseño visual de las tarjetas de producto prioriza únicamente la estética (fotos grandes) y oculta o dificulta la lectura de la información técnica (obligándole a hacer clics extra o abrir nuevas pestañas), considerará que el sistema es ineficiente.
 
-### 4.b Diseño de las pruebas 
+### 5.b Diseño de las pruebas 
 ![Método UX](img/usability-testing.png) 
 -----
 
->>> Planifique qué pruebas se van a desarrollar. ¿En qué consisten? ¿Se hará uso del checklist de la P1?
+Para evaluar la usabilidad de ambas propuestas (Caso A: Bold Burger y Caso B: GoikoMes), realizaremos unas pruebas prácticas, ágiles y directas con los usuarios definidos.
+Las pruebas consistirán en los siguientes pasos:
+1. Prueba de Tareas (Task-based testing)
+A cada usuario se le pedirá que complete una única tarea principal en el prototipo para observar si el diseño es intuitivo y logran el objetivo sin ayuda:
+•	Caso A (Bold Burger): El usuario deberá aplicar un filtro de alérgenos/dieta y comprobar que la web le muestra claramente qué productos son seguros para su consumo.
+•	Caso B (GoikoMes): El usuario deberá entrar a la campaña mensual, ver las 3 hamburguesas candidatas y emitir su voto.
+
+2. Uso del Checklist de la P1
+Sí, se utilizará el Checklist de Usabilidad de la Práctica 1. Lo aplicaremos de forma rápida sobre ambos prototipos (A y B) para verificar si cumplen los criterios heurísticos básicos, comparando los resultados con el análisis que hicimos en la primera práctica.
+
+3. Cuestionario SUS
+Para agilizar el proceso y obtener datos objetivos, tras finalizar la tarea de navegación, cada usuario rellenará únicamente el Cuestionario SUS (System Usability Scale). Esto nos dará una métrica estándar sobre la satisfacción y la facilidad de uso percibida, sin necesidad de realizar entrevistas posteriores.
 
 
-
-### 4.c Cuestionario SUS
+### 5.c Cuestionario SUS
 ![Método UX](img/Survey.png) 
 ----
 
@@ -531,13 +541,13 @@ Para más información, consultar aquí sobre la [metodología SUS](https://cui.
 >>> Adjuntar en la carpeta P4/ el excel resultante y describa aquí la valoración personal de los resultados 
 
 
-### 4.d A/B Testing
+### 5.d A/B Testing
 ![Método UX](img/ABtesting.png) 
 -----
 
 >>> Los resultados de un A/B testing con 3 pruebas y 2 casos o alternativas daría como resultado una tabla de 3 filas y 2 columnas, además de un resultado agregado global. Especifique con claridad el resultado: qué caso es más usable, A o B?
 
-### 4.e Aplicación del método Eye Tracking 
+### 5.e Aplicación del método Eye Tracking 
 ![Método UX](img/eye-tracking.png)
 ----
 
@@ -550,7 +560,7 @@ Para más información, consultar aquí sobre la [metodología SUS](https://cui.
 >>> gazerecorder en versión de pruebas puede estar limitada a 3 usuarios para generar mapa de calor (crédito > 0 para que funcione) 
 
 
-### 4.f Usability Report de B
+### 5.f Usability Report de B
 ![Método UX](img/usability-report.png) 
 -----
 
