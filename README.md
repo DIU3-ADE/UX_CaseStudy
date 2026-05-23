@@ -573,7 +573,7 @@ El mapa de calor revela una alta dispersión de la mirada. Las fijaciones se con
 
 ![experimento](img/experimentoET.png)  
   
-Enlace al recurso: [eye_tracking.png](img/eye_tracking.png)
+![eye_tracking](img/eye_tracking.png)
 
 
 
