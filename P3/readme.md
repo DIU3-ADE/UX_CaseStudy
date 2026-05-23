@@ -33,4 +33,11 @@
 
 ## Conclusiones
 
-(Por completar) Añadir aquí la valoración final del equipo sobre la realización de la práctica y aprendizajes clave.
+La realización de esta tercera práctica ha marcado un punto de inflexión en el proyecto, ya que nos ha permitido dar el salto desde la conceptualización abstracta hacia la materialización visual y funcional de nuestra propuesta.
+
+Entre los aprendizajes clave y valoraciones del equipo, destacamos los siguientes puntos:
+- El reto de la Identidad Visual: La creación del Moodboard nos ha enseñado que definir una identidad visual va mucho más allá de elegir colores y tipografías que resulten estéticos. Ha sido un reto lograr que todos los elementos gráficos comuniquen la "propuesta de valor" de forma coherente y generen la atmósfera correcta para nuestro público objetivo. Ha sido realmemte un reto encontrar el equilibrio entre nuestra propuesta de valor de que la elección del consumidor con restricciones alimentarias sea fácil y que la propuesta sea realmente atractiva para un público general.
+- Hemos comprendido la necesidad de no reinventar la rueda en cada pantalla. Utilizar patrones de diseño estandarizados no solo agiliza nuestro trabajo, sino que resulta fundamental para no frustrar al usuario, garantizando que la navegación sea intuitiva y predecible.
+- El valor del Mockup como herramienta de validación: Dar vida al diseño mediante el Mockup interactivo ha sido la parte más reveladora. Nos ha permitido interactuar con nuestra propia interfaz, lo que ha sacado a la luz pequeños problemas de flujo y proporciones que en los bocetos estáticos de la P2 pasaban desapercibidos.
+
+En conclusión, valoramos esta práctica de forma muy positiva. Aunque integrar la estética con la usabilidad requiere iterar y tomar muchas micro-decisiones, ahora contamos con un prototipo de alta fidelidad sólido. 
