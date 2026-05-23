@@ -22,7 +22,7 @@ Informe realizado por Equipo DIU3.ADE, creadores de BOLD BURGER.
 
 - **Objetivo**: Evaluar la usabilidad, accesibilidad y carga cognitiva del prototipo de fidelización "GoikoMes" (Caso B) frente a nuestra propuesta "Bold Burger" (Caso A), identificando puntos de fricción reales en el flujo de interacción.
 - **Metodología**: Se ha empleado un enfoque mixto: Task-based testing simulado, medición de satisfacción mediante Cuestionario SUS, evaluación heurística (WCAG) y simulación de análisis biométrico visual (Eye Tracking).
-- **Principales Hallazgos: 1. Inconsistencia Crítica en CTAs: Los botones para "Votar" están etiquetados como "PEDIR AHORA", generando bloqueo cognitivo.
+- **Principales Hallazgos**: 1. Inconsistencia Crítica en CTAs: Los botones para "Votar" están etiquetados como "PEDIR AHORA", generando bloqueo cognitivo.
 2. Accesibilidad Deficiente: Graves problemas de contraste (textos rojos sobre fondos negros) y tipografía minúscula.
 3. Jerarquía Visual Confusa: Textos importantes ("VOTA") camuflados gráficamente sobre las texturas de las hamburguesas.
 - **Resultado Global**: Aunque el diseño es fiel a la identidad de marca (dark), sacrifica principios vitales de usabilidad y accesibilidad, penalizando la experiencia del usuario.
