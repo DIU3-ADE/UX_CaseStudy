@@ -540,12 +540,25 @@ http://usabilitygeek.com/how-to-use-the-system-usability-scale-sus-to-evaluate-t
 Para más información, consultar aquí sobre la [metodología SUS](https://cui.unige.ch/isi/icle-wiki/_media/ipm:test-suschapt.pdf)
 >>> Adjuntar en la carpeta P4/ el excel resultante y describa aquí la valoración personal de los resultados 
 
+Se ha aplicado el Cuestionario SUS a los 4 usuarios tras finalizar sus respectivas tareas. El archivo Excel con los cálculos detallados se encuentra subido en la carpeta P4/.
+Valoración personal de los resultados:
+•	Caso A (Bold Burger): Ha obtenido una media de 82.5 (Excelente). Los usuarios (Marcos y David) han valorado muy positivamente la interfaz estandarizada y la facilidad para encontrar lo que buscaban mediante los filtros, sintiendo un alto grado de control.
+•	Caso B (GoikoMes): Ha obtenido una media de 65 (Aceptable/Marginal). La puntuación ha bajado considerablemente por la experiencia de Laura en móvil, a quien le resultaron intrusivos los elementos de votación cuando solo quería pedir, y por la dificultad de Hugo para comparar visualmente los ingredientes de las 3 hamburguesas.
+
 
 ### 5.d A/B Testing
 ![Método UX](img/ABtesting.png) 
 -----
 
->>> Los resultados de un A/B testing con 3 pruebas y 2 casos o alternativas daría como resultado una tabla de 3 filas y 2 columnas, además de un resultado agregado global. Especifique con claridad el resultado: qué caso es más usable, A o B?
+Tras enfrentar ambos diseños en el A/B Testing con las tareas asignadas, extraemos las siguientes conclusiones sobre la usabilidad de las alternativas:
+
+| Métrica Evaluada | Caso A (Bold Burger) | Caso B (GoikoMes) |
+| :--- | :--- | :--- |
+| **Facilidad de aprendizaje** | Alta (Flujo de filtros intuitivo) | Baja (Confusión en los CTAs principales) |
+| **Carga Cognitiva** | Baja | Alta (Problemas de contraste y tipografía) |
+| **Tasa de error (estimada)** | Baja | Alta (Clics erróneos al intentar votar) |
+
+El Caso A (Bold Burger) resulta notablemente más usable. Su enfoque centrado en la tarea principal (filtrar alérgenos) evita la confusión. Por el contrario, el Caso B falla en principios heurísticos básicos: la falta de correspondencia entre el sistema y el mundo real (botones que indican una acción distinta a la esperada) y problemas de legibilidad penalizan fuertemente la experiencia de usuario.
 
 ### 5.e Aplicación del método Eye Tracking 
 ![Método UX](img/eye-tracking.png)
