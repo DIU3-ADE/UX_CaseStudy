@@ -550,6 +550,8 @@ Valoración personal de los resultados:
 ![Método UX](img/ABtesting.png) 
 -----
 
+Para la evaluación del A/B Testing, se ha utilizado el **cuestionario Tally proporcionado por el profesor** con un total de **3 usuarios para cada caso** (Caso A: Bold Burger y Caso B: GoikoMes). Este cuestionario permite recopilar datos cuantitativos y cualitativos sobre la experiencia de usuario en ambos diseños.
+
 Tras enfrentar ambos diseños en el A/B Testing con las tareas asignadas, extraemos las siguientes conclusiones sobre la usabilidad de las alternativas:
 
 Las respuestas al caso A generan una puntuación media aproximada de 85 (Excelente), reflejando que la interfaz de filtros es clara, predecible y no requiere ayuda.
