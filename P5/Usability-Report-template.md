@@ -77,10 +77,12 @@ Texto superpuesto en imágenes complejas: Palabras clave como "VOTA" integradas 
 Antes de detallar las áreas de mejora técnica, es fundamental destacar los grandes aciertos del prototipo: el diseño tiene un atractivo visual innegable y respeta a la perfección la identidad de la marca. El uso del "dark mode", combinado con una fotografía gastronómica de altísima calidad, logra captar la atención inmediatamente y transmite muy bien la esencia de Goiko. Además, la idea de incluir secciones como el "Salón de la Fama" o el perfil de los "Creadores" aporta mucho valor humano y narrativo al producto.
 
 Para que esta excelente propuesta gráfica no se vea penalizada por la usabilidad, se proponen las siguientes mejoras estructuradas por orden de impacto:
-Prioridad	Hallazgo	Recomendación de Mejora
-Alta (Crítica)	El cuestionario SUS (Pregunta 6) indica alta inconsistencia y el Eye Tracking muestra duda total porque el usuario quiere votar, pero los botones dicen "PEDIR AHORA".	Cambiar urgentemente el copy de los botones en la sección "Votaciones del mes" para que indiquen la acción real: "Votar" o "Elegir esta".
-Alta (Crítica)	La auditoría revela errores WCAG severos de contraste en textos rojos y legibilidad nula por tipografías minúsculas en descripciones.	Aumentar el tamaño base de la fuente a 16px. Cambiar el color de los enlaces y CTAs a un tono de alta luminancia (blanco puro o el amarillo corporativo de Goiko) sobre el fondo negro.
-Media	El texto "VOTA" integrado dentro de la foto de la comida (sobre el pan) no se lee y genera ruido cognitivo.	Eliminar textos vitales incrustados dentro de las fotografías. Extraer el texto "Vota" y colocarlo como una etiqueta HTML estándar fuera de la imagen.
-Baja	En el "Salón de la Fama", el botón "Pedir similar" carece de affordance (no parece un botón interactivo).	Añadir un contenedor visible (fondo o borde sutil) al texto "Pedir similar" para que los usuarios identifiquen claramente que es un elemento clicable.
+
+| **Prioridad**      | **Hallazgo**                                                 | **Recomendación de Mejora**                                  |
+| ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **Alta (Crítica)** | El cuestionario SUS (Pregunta 6) indica alta inconsistencia y el Eye Tracking muestra duda total porque el usuario quiere votar, pero los botones dicen "PEDIR AHORA". | Cambiar urgentemente el copy de los botones en la sección "Votaciones del mes" para que indiquen la acción real: "Votar" o "Elegir esta". |
+| **Alta (Crítica)** | La auditoría revela errores WCAG severos de contraste en textos rojos y legibilidad nula por tipografías minúsculas en descripciones. | Aumentar el tamaño base de la fuente a 16px. Cambiar el color de los enlaces y CTAs a un tono de alta luminancia (blanco puro o el amarillo corporativo de Goiko) sobre el fondo negro. |
+| **Media**          | El texto "VOTA" integrado dentro de la foto de la comida (sobre el pan) no se lee y genera ruido cognitivo. | Eliminar textos vitales incrustados dentro de las fotografías. Extraer el texto "Vota" y colocarlo como una etiqueta HTML estándar fuera de la imagen. |
+| **Baja**           | En el "Salón de la Fama", el botón "Pedir similar" carece de affordance (no parece un botón interactivo). | Añadir un contenedor visible (fondo o borde sutil) al texto "Pedir similar" para que los usuarios identifiquen claramente que es un elemento clicable. |
 
 
