@@ -66,18 +66,21 @@ El Caso A (Bold Burger) resulta notablemente más usable. Su enfoque centrado en
 
 Sintetiza el cumplimiento técnico y normativo.
 
-- **Puntuación Automática:** (Lighthouse/WAVE).
-- **Principales barreras:** Lista los errores críticos (contraste, falta de etiquetas, etc.) y cómo afectan a los usuarios con discapacidad.
+- **Puntuación Automática:** Lighthouse Accessibility Score: 60/100. Reporte WAVE: Múltiples errores críticos de contraste y alertas por tamaño de fuente.
+- **Principales barreras:** 
+Falta de contraste (WCAG 1.4.3): El uso recurrente de texto en color rojo oscuro sobre fondos gris carbón o negro (ej. botones "Pedir similar" o "PEDIR AHORA") hace que los textos interactivos sean casi invisibles. Impacto: Los usuarios con baja visión, daltonismo o que usen pantallas con mucho reflejo no podrán identificar ni leer los botones de acción.
+Tipografía y legibilidad (WCAG 1.4.4): Los bloques de texto explicativos (ingredientes y perfiles de creadores) utilizan un tamaño de fuente minúsculo y abigarrado. Impacto: Supone una barrera severa para usuarios de edad avanzada o con discapacidades visuales leves, obligándolos a hacer zoom constante.
+Texto superpuesto en imágenes complejas: Palabras clave como "VOTA" integradas como texturas fotográficas en el propio pan de las hamburguesas. Impacto: Además de ser ilegible visualmente por el nulo contraste con la textura del pan, si estas imágenes no cuentan con un atributo alt perfecto, los lectores de pantalla (usuarios ciegos) omitirán esa información por completo.
 
 ## 6. Conclusiones y Recomendaciones (Actionable Insights)
 
-No te limites a decir qué está mal; di cómo arreglarlo. Clasifica las recomendaciones por prioridad:
+Antes de detallar las áreas de mejora técnica, es fundamental destacar los grandes aciertos del prototipo: el diseño tiene un atractivo visual innegable y respeta a la perfección la identidad de la marca. El uso del "dark mode", combinado con una fotografía gastronómica de altísima calidad, logra captar la atención inmediatamente y transmite muy bien la esencia de Goiko. Además, la idea de incluir secciones como el "Salón de la Fama" o el perfil de los "Creadores" aporta mucho valor humano y narrativo al producto.
 
-| **Prioridad**      | **Hallazgo**                                                 | **Recomendación de Mejora**                                  |
-| ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **Alta (Crítica)** | Ej. El SUS indica alta complejidad y el Eye Tracking muestra confusión en el menú. | Simplificar la arquitectura de información y aumentar el tamaño de las fuentes. |
-| **Media**          | Ej. Los usuarios no ven el botón de registro rápidamente.        | Cambiar el color del CTA a uno de mayor contraste según WCAG. |
-| **Baja**           | Ej. El logo no redirige a la home.                               | Añadir el enlace estándar al logotipo en la cabecera.        |
-
+Para que esta excelente propuesta gráfica no se vea penalizada por la usabilidad, se proponen las siguientes mejoras estructuradas por orden de impacto:
+Prioridad	Hallazgo	Recomendación de Mejora
+Alta (Crítica)	El cuestionario SUS (Pregunta 6) indica alta inconsistencia y el Eye Tracking muestra duda total porque el usuario quiere votar, pero los botones dicen "PEDIR AHORA".	Cambiar urgentemente el copy de los botones en la sección "Votaciones del mes" para que indiquen la acción real: "Votar" o "Elegir esta".
+Alta (Crítica)	La auditoría revela errores WCAG severos de contraste en textos rojos y legibilidad nula por tipografías minúsculas en descripciones.	Aumentar el tamaño base de la fuente a 16px. Cambiar el color de los enlaces y CTAs a un tono de alta luminancia (blanco puro o el amarillo corporativo de Goiko) sobre el fondo negro.
+Media	El texto "VOTA" integrado dentro de la foto de la comida (sobre el pan) no se lee y genera ruido cognitivo.	Eliminar textos vitales incrustados dentro de las fotografías. Extraer el texto "Vota" y colocarlo como una etiqueta HTML estándar fuera de la imagen.
+Baja	En el "Salón de la Fama", el botón "Pedir similar" carece de affordance (no parece un botón interactivo).	Añadir un contenedor visible (fondo o borde sutil) al texto "Pedir similar" para que los usuarios identifiquen claramente que es un elemento clicable.
 
 
