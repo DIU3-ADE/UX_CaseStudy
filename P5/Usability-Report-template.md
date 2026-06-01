@@ -36,12 +36,22 @@ Informe realizado por Equipo DIU3.ADE, creadores de BOLD BURGER.
 
 ## 3. Resultados del Cuestionario SUS (Datos Cuantitativos)
 
-[Aquí se muestran datos del análisis multivariable de SUS] 
+Para la evaluación del A/B Testing, se ha utilizado el **cuestionario Tally proporcionado por el profesor** con un total de **3 usuarios para cada caso** (Caso A: Bold Burger y Caso B: GoikoMes). Este cuestionario permite recopilar datos cuantitativos y cualitativos sobre la experiencia de usuario en ambos diseños.
 
-- **Comparativa A vs. B:** Un gráfico de barras comparando la puntuación final de ambos diseños.
-- **Desglose por ítems:** Identifica qué preguntas del SUS tuvieron peor puntuación (por ejemplo, si la pregunta 2 sobre "complejidad" fue muy alta en el Diseño B).
+Tras enfrentar ambos diseños en el A/B Testing con las tareas asignadas, extraemos las siguientes conclusiones sobre la usabilidad de las alternativas:
 
-Valoración numérica del SUS - 
+Las respuestas al caso A generan una puntuación media aproximada de 85 (Excelente), reflejando que la interfaz de filtros es clara, predecible y no requiere ayuda.
+
+Las respuestas al caso B generan una puntuación media de 55'8. Reflejan que, aunque el sistema no requiere un "técnico" para usarse, los usuarios se frustraron por la inconsistencia (botones de "Pedir" que en realidad son para "Votar") y lo engorroso que resulta leer la pantalla.
+
+Al analizar las respuestas individuales, el Caso A (Bold Burger) ha mantenido una gran consistencia positiva en todas las métricas. Sin embargo, en el Caso B (GoikoMes), se han identificado tres áreas concretas que han hundido su puntuación general. Las preguntas con peor valoración (donde los usuarios marcaron mayor nivel de penalización) fueron:
+- Pregunta 6 ("Pensé que había demasiada inconsistencia en este sistema"): Fue la peor valorada. Los usuarios penalizaron fuertemente la interfaz al encontrar botones de votación etiquetados como "PEDIR AHORA", rompiendo sus expectativas y la coherencia del sistema.
+- Pregunta 8 ("Encontré el sistema muy engorroso de usar"): La lectura de textos pequeños en color rojo sobre fondo negro, sumada a la dificultad de interpretar los textos incrustados en las propias fotos de la comida, generó una alta percepción de pesadez visual.
+- Pregunta 2 ("Encontré el sistema innecesariamente complejo"): Los perfiles con menor competencia digital o que buscaban inmediatez sintieron que el proceso para simplemente visualizar y votar una hamburguesa estaba sobrecargado de elementos visuales que distraían del objetivo principal.
+
+El Caso A (Bold Burger) resulta notablemente más usable. Su enfoque centrado en la tarea principal (filtrar alérgenos) evita la confusión. Por el contrario, el Caso B falla en principios heurísticos básicos: la falta de correspondencia entre el sistema y el mundo real (botones que indican una acción distinta a la esperada) y problemas de legibilidad penalizan fuertemente la experiencia de usuario.
+
+![Comparativa SUS AB](P5/ComparativaSUS-AB.png) 
 
 
 ## 4. Análisis de Eye Tracking (Datos Biométricos)
