@@ -584,6 +584,8 @@ El mapa de calor revela una alta dispersión de la mirada. Las fijaciones se con
 ![Método UX](img/usability-report.png) 
 -----
 
+El Usability Report detallado se puede consultar en la carpeta [P5/](P5/).
+
 >>> Añadir report de usabilidad para práctica B (la de los compañeros) aportando resultados y valoración de cada debilidad de usabilidad. 
 >>> Enlazar aqui con el archivo subido a P4/ que indica qué equipo evalua a qué otro equipo.
 
